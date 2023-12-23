@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oxygen&family=Poppins:wght@300;400;500&family=Roboto:wght@500&family=Unbounded:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(#0c0000, #080018);
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 10px 150px;
+    justify-self: center;
+    align-items: center;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+
+}
+
+nav img {
+    width: 120px;
+    margin-left: -10%;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+    margin-top: -80px;
+    /* border: 4px solid purple; */
+    /* max-width: 399px; */
+    margin: 0px 190px;
+    padding: 0px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 14px;
+    position: relative;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-links ul li a {
+    color: rgb(202, 201, 201);
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ff2a1a;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+
+/* firstsection */
+.container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+    max-width: 50%;
+  }
+  .left-section,
+.right-section {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+  
+  .left-section {
+    flex: 2; /* Takes 50% of the width */
+     /* Adjust background color as needed */
+     /* background-color: pink; */
+    color: #fff; /* Adjust text color as needed */
+    border: 1px solid pink;
+    padding: 35px;
+    box-sizing: border-box;
+  }
+  .text{
+    border: 1px solid red;
+    margin: 5px 10px;
+    padding: 35px 0px
+    
+}
+.text h1 {
+    font-size: 65px;
+    border: 1px solid blue;
+}
+
+.text p{
+    margin: 40px 0 40px;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid green;
+}
+.text button {
+    margin: 40px 0 40px;
+    font-size: 18px;
+    color: #fffffff1;
+    background-color: rgba(23, 146, 202, 0.623);
+    padding: 6px 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 11px;
+    cursor: pointer;
+    
+    
+}
+.text button:hover {
+    margin: 40px 0 40px;
+    font-size: 18px;
+    color: #fffffff1;
+    background-color: rgba(255, 72, 0, 0.925);
+    padding: 6px 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 11px;
+    cursor: pointer;
+    animation: shake 0.8s infinite ease-in-out;
+}
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25%,
+    75% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    
+}
+
+
+
+.right-section {
+    flex: 1; /* Takes 50% of the width */
+     /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    /* background-color: brown; */
+    padding: 20px;
+    border: 1px solid green;
+    box-sizing: border-box;
+    text-align: right;
+  }
+/* .text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+
+
+
+
+
+nav .bi.bi-x-lg {
+    /* Your styles here */
+    display: none;
+    color: #ffffff; /* Change to your desired color */
+    font-size: 25px; 
+    margin-left: 10px;    
+  }
+nav .bi.bi-list {
+    /* Your styles here */
+    display: none;
+    color: #ffffff; /* Change to your desired color */
+    font-size: 29px; /* Change to your desired font size */
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+
+@media (max-width: 700px) {
+    .text-box h1 {
+      font-size: 40px;
+    }
+  
+    .nav-links {
+      position: fixed;
+      background: #000a29d5;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -400px; /* Initially hide off-screen */
+      text-align: left;
+      z-index: 2;
+      transition: right 1s; /* Use right property for the transition */
+    }
+  
+    .nav-links ul li {
+      display: block;
+    }
+  
+    .text-box p {
+      font-size: 16px;
+    }
+  
+    .text-box button {
+      font-size: 14px;
+    }
+  
+    nav .bi.bi-list,
+    nav .bi.bi-x-lg {
+      display: block;
+      color: #ffffff;
+      font-size: 32px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  
+    .nav-links ul {
+      padding: 30px;
+    }
+  }
+  
+/* menu icon */
