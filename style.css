@@ -20,7 +20,7 @@
 
     background-position: center;
     background-size: cover;
-    position: relative;
+    position: relative; 
 }
 
 nav {
@@ -92,8 +92,9 @@ nav img {
 /* firstsection */
 .container {
     display: flex;
-    height: 100vh; /* Full height of the viewport */
-    max-width: 50%;
+    height: 110vh; /* Full height of the viewport */
+    max-width: 60%;
+    border: 2px solid red;
   }
   .left-section,
 .right-section {
@@ -209,6 +210,7 @@ nav img {
     /* border: 1px solid green; */
     box-sizing: border-box;
     text-align: right;
+    border: 2px solid white;
   }
 /* .text-box {
     width: 90%;
@@ -293,11 +295,11 @@ nav .bi.bi-list {
 }
 .welcome-box {
     display: flex;
-    height: 40vh; /* Full height of the viewport */
+    height: 33vh; /* Full height of the viewport */
     max-width: 50%;
     border: 2px solid red;
     margin-left: 20%;
-    margin-top: 0%;
+    margin-top: -5%;
     padding: 10px 10px;
 
       
@@ -348,9 +350,50 @@ nav .bi.bi-list {
   }
 }
   
+  .welcome {
+      opacity: 0;
+      transform: translatex(600px);
+      transition: opacity 0.5s, transform 0.5s;
+      
+    }
   .welcome-text{
-    color: #fff;
-    font-size: 20px;
-    
-  }
-  
+      color: white;
+      font-size: 27px;
+      border: 1px solid white;
+      margin-left: 400px;
+      margin-top: 10px;
+      padding: 1px 30px;
+    }
+      /* whats latest */
+
+      .carousel-item {
+        height: 600px;
+      }
+      
+      .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        height: 50px;
+        width: 50px;
+        outline: black auto 1px;
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-image: none;
+      }
+      
+      .carousel-control-prev-icon:after {
+        content: 'Previous';
+        font-size: 20px;
+        color: black;
+      }
+      
+      .carousel-control-next-icon:after {
+        content: 'Next';
+        font-size: 20px;
+        color: black;
+      }
