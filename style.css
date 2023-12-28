@@ -363,37 +363,57 @@ nav .bi.bi-list {
       margin-left: 400px;
       margin-top: 10px;
       padding: 1px 30px;
+      height: 50vh;
     }
       /* whats latest */
-
       .carousel-item {
         height: 600px;
+        background-image: radial-gradient(#0c0000, #080018);  
       }
       
       .carousel-item img {
-        height: 100%;
-        object-fit: cover;
+        display: block;
+        height: 50%;
+        margin-top: 40px ;
+        margin-left: 1px;
+                          
+        object-fit:contain;
+        border: 2px solid pink;
       }
+      
+      .carousel-caption {
+        border: 2px solid greenyellow;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+      }
+      
+      .carousel-control-prev,
+      .carousel-control-next {
+        filter: invert(10%);
+      }
+      
       
       .carousel-control-prev-icon,
       .carousel-control-next-icon {
-        height: 50px;
-        width: 50px;
-        outline: black auto 1px;
+        width: 3rem;
+        height: 3rem;
+        outline: rgb(0, 0, 0) auto 1px;
         background-size: 100%, 100%;
         border-radius: 50%;
-        border: 1px solid black;
+        border: 2px solid black;
         background-image: none;
       }
       
       .carousel-control-prev-icon:after {
-        content: 'Previous';
-        font-size: 20px;
-        color: black;
+        content: ' ';
+        font-size: 25px;
+        color: rgb(255, 255, 255);
       }
       
       .carousel-control-next-icon:after {
-        content: 'Next';
-        font-size: 20px;
-        color: black;
+        content: ' ';
+        font-size: 25px;
+        color: rgb(255, 255, 255);
       }
+      
