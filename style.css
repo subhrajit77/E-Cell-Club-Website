@@ -417,3 +417,40 @@ nav .bi.bi-list {
         color: rgb(255, 255, 255);
       }
       
+      /* footer part */
+
+      footer {
+        background-image: radial-gradient(#02062e, #080018);
+        color: #afb2b4;
+        padding: 20px 0;
+      }
+      
+      footer h5 {
+        margin-bottom: 20px;
+      }
+      
+      footer ul {
+        display: flex;
+    justify-content: space-between;
+        list-style-type: none;
+        padding: 0px;
+      }
+      
+      footer ul li a {
+        color: #b3b6b8;
+        text-decoration: none;
+        padding: 10px 50px;
+      }
+      
+      footer .row {
+        display: flexbox;
+        justify-content: space-between;
+      }
+      
+      footer .col {
+        flex: 1;
+      }
+      
+      footer p {
+        margin-bottom: 0;
+      }
