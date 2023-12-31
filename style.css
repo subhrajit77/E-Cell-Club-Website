@@ -432,8 +432,8 @@ nav .bi.bi-list {
       .footer {
         padding: 5px 20px;
         display: flex;
-        display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        flex-direction: row;
     }
     .footer-first{
       border: 2px solid blue;
@@ -452,11 +452,11 @@ nav .bi.bi-list {
       align-content: normal;
       justify-content: space-between;
       font-size: 14px;
-      border: 1px solid yellow;
-      margin-left: -90px;
-      margin-right: 203px;
-      margin-top: 10px;
-      padding: 15px 17px;
+      /* border: 1px solid yellow; */
+      margin-left: -70px;
+      margin-right: 199px;
+      margin-top: 5px;
+      padding: 5px 95px;
     }
     .footer-second{
       border: 1px solid red;
