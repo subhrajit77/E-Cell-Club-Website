@@ -9,7 +9,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
+}
+body{
+  background-image: radial-gradient(#0c0000, #080018);
+  border: 2px solid yellow;
 }
 
 
@@ -422,18 +425,66 @@ nav .bi.bi-list {
       footer {
         background-image: radial-gradient(#02062e, #080018);
         color: #afb2b4;
-        padding: 20px 0;
+        padding: 80px 0;
+        border: 2px solid rgb(245, 141, 159);
+        margin-top: 300px;
       }
       .footer {
-        padding: 10px 20px;
-    display: flex;
+        padding: 5px 20px;
+        display: flex;
         display: flex;
         justify-content: space-evenly;
+    }
+    .footer-first{
+      border: 2px solid blue;
+      
+      
     }
     .footer-first img {
       max-width: 75px;
       border: 1px solid green;
       margin-left: -50px;
+    }
+    .footer h3{
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap:nowrap;
+      align-content: normal;
+      justify-content: space-between;
+      font-size: 14px;
+      border: 1px solid yellow;
+      margin-left: -90px;
+      margin-right: 203px;
+      margin-top: 10px;
+      padding: 15px 17px;
+    }
+    .footer-second{
+      border: 1px solid red;
+      
+    }
+    .footer-second ul {
+      
+      padding: 0px 0px;
+      
+      }
+    .footer-second ul a{
+      
+    color: rgb(163, 159, 159);
+    text-decoration: none;
+    font-size: 17px;
+    padding: 30px 0px;
+    }
+    .footer-second ul a:hover{
+      
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    
+    }
+    
+    .footer-third{
+      border: 1px solid rgb(226, 208, 44);
+      
     }
 
     .footer ul {
