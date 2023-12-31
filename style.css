@@ -424,33 +424,29 @@ nav .bi.bi-list {
         color: #afb2b4;
         padding: 20px 0;
       }
-      
-      footer h5 {
-        margin-bottom: 20px;
-      }
-      
-      footer ul {
+      .footer {
+        padding: 10px 20px;
+    display: flex;
         display: flex;
-    justify-content: space-between;
-        list-style-type: none;
-        padding: 0px;
-      }
-      
-      footer ul li a {
-        color: #b3b6b8;
-        text-decoration: none;
-        padding: 10px 50px;
-      }
-      
-      footer .row {
-        display: flexbox;
-        justify-content: space-between;
-      }
-      
-      footer .col {
-        flex: 1;
-      }
-      
-      footer p {
-        margin-bottom: 0;
-      }
+        justify-content: space-evenly;
+    }
+    .footer-first img {
+      max-width: 75px;
+      border: 1px solid green;
+      margin-left: -50px;
+    }
+
+    .footer ul {
+        list-style: none;
+        margin-left: -200px;
+    }
+
+    .footer>div {
+        width: 220px;
+    }
+
+    footer .footer-rights {
+        text-align: center;
+        color: rgb(150, 150, 150);
+        padding: 12px 0;
+    }
