@@ -467,12 +467,11 @@ nav .bi.bi-list {
       padding: 0px 0px;
       
       }
-    .footer-second ul a{
-      
-    color: rgb(163, 159, 159);
-    text-decoration: none;
-    font-size: 17px;
-    padding: 30px 0px;
+      .footer-second ul li a {
+        color: rgb(163, 159, 159);
+        text-decoration: none;
+        font-size: 17px;
+        padding: 0 15px;
     }
     .footer-second ul a:hover{
       
