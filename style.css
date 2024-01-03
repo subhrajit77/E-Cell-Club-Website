@@ -429,23 +429,35 @@ nav .bi.bi-list {
         border: 2px solid rgb(245, 141, 159);
         margin-top: 300px;
       }
-      .footer {
+      .footer-main {
         padding: 5px 20px;
+        border: 2px solid yellow;
         display: flex;
         justify-content: space-around;
         flex-direction: row;
     }
-    .footer-first{
+    .footer-main .footer-first{
       border: 2px solid blue;
+      margin: -7px;
+      margin-left: -20px;
+      padding: 0px 0px;
+      height: 65px;
+      width: 300px;
+      display: flex;
+      align-items: flex-start;
       
       
     }
     .footer-first img {
       max-width: 75px;
-      border: 1px solid green;
-      margin-left: -50px;
+      /* border: 1px solid green; */
+      display: flex;
+      padding-left: 10px;
+      padding-right: 10px;
+      
+      
     }
-    .footer h3{
+    .footer-main h5{
       display: flex;
       flex-direction: row-reverse;
       flex-wrap:nowrap;
@@ -453,10 +465,10 @@ nav .bi.bi-list {
       justify-content: space-between;
       font-size: 14px;
       /* border: 1px solid yellow; */
-      margin-left: -70px;
+      border-left: 3px solid rgb(126, 124, 120);
       margin-right: 199px;
-      margin-top: 5px;
-      padding: 5px 95px;
+      margin-top: 10px;
+      padding: 10px 10px;
     }
     .footer-second{
       border: 1px solid red;
@@ -481,10 +493,7 @@ nav .bi.bi-list {
     
     }
     
-    .footer-third{
-      border: 1px solid rgb(226, 208, 44);
-      
-    }
+    
 
     .footer ul {
         list-style: none;
@@ -492,7 +501,7 @@ nav .bi.bi-list {
     }
 
     .footer>div {
-        width: 220px;
+        width: 100px;
     }
 
     footer .footer-rights {
