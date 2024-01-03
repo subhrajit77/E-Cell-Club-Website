@@ -422,90 +422,92 @@ nav .bi.bi-list {
       
       /* footer part */
 
-      footer {
-        background-image: radial-gradient(#02062e, #080018);
-        color: #afb2b4;
-        padding: 80px 0;
-        border: 2px solid rgb(245, 141, 159);
-        margin-top: 300px;
-      }
-      .footer-main {
-        padding: 5px 20px;
+      #footer {
+        position: relative;
+        font-family: sans-serif;
+        height: 20%;
         border: 2px solid yellow;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    .footer-main .footer-first{
-      border: 2px solid blue;
-      margin: -7px;
-      margin-left: -20px;
-      padding: 0px 0px;
-      height: 65px;
-      width: 300px;
-      display: flex;
-      align-items: flex-start;
-      
-      
-    }
-    .footer-first img {
-      max-width: 75px;
-      /* border: 1px solid green; */
-      display: flex;
-      padding-left: 10px;
-      padding-right: 10px;
-      
-      
-    }
-    .footer-main h5{
-      display: flex;
-      flex-direction: row-reverse;
-      flex-wrap:nowrap;
-      align-content: normal;
-      justify-content: space-between;
-      font-size: 14px;
-      /* border: 1px solid yellow; */
-      border-left: 3px solid rgb(126, 124, 120);
-      margin-right: 199px;
-      margin-top: 10px;
-      padding: 10px 10px;
-    }
-    .footer-second{
-      border: 1px solid red;
-      
-    }
-    .footer-second ul {
-      
-      padding: 0px 0px;
-      
+        background-color: rgba(0, 0, 0, 0.336);
+        color: white;
+        display: grid;
+        grid-template-columns: 2fr 0.9fr 0.7fr 0.2fr 1.2fr;
+        grid-template-rows: 1.9fr 0.1fr;
+        grid-template-areas: 
+        "logo product resource resource business"   
+        "social social . design design";
       }
-      .footer-second ul li a {
-        color: rgb(163, 159, 159);
-        text-decoration: none;
-        font-size: 17px;
-        padding: 0 15px;
-    }
-    .footer-second ul a:hover{
       
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 18px;
-    
-    }
-    
-    
-
-    .footer ul {
+      li {
         list-style: none;
-        margin-left: -200px;
-    }
-
-    .footer>div {
-        width: 100px;
-    }
-
-    footer .footer-rights {
-        text-align: center;
-        color: rgb(150, 150, 150);
-        padding: 12px 0;
-    }
+        padding-top: 2%;
+        font-size: .9em;
+      }
+      
+      .flex {
+        display: flex;
+      }
+      
+      #footer li a {
+        color: #065299;
+        text-decoration: none;
+      }
+      
+      .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        grid-area: logo;
+        padding-left: 1rem;
+        padding-top: .5rem;
+      }
+      
+      .img {
+        padding-top: .5rem;
+        width: 80px;
+        height: 80px;
+      }
+      
+      .logo h4 {
+        line-height: 1rem;
+        margin-left: 2rem;
+      }
+      
+      .copy {
+        padding-top: .3rem;
+        font-size: .7em;
+        color: #7d8287;
+      }
+      
+      .product {
+        grid-area: product;
+      }
+      
+      .resource {
+        grid-area: resource;
+      }
+      
+      .business {
+        grid-area: business;
+      }
+      
+      .social { 
+        grid-area: social;
+        padding-left: .3rem;
+        padding-bottom: .3rem; 
+        font-size: .6em;
+        display: flex;
+      }
+      
+      .design {
+        grid-area: design;
+        font-size: .6em;
+        text-align: right;
+        padding-right: .3rem;
+        padding-bottom: .3rem;
+      }
+      
+      .icons {
+        width: 1rem;
+        height: 1rem;
+        padding-left: .3rem;
+      }
