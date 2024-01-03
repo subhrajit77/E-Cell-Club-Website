@@ -13,6 +13,7 @@
 body{
   background-image: radial-gradient(#0c0000, #080018);
   border: 2px solid yellow;
+  
 }
 
 
@@ -24,9 +25,11 @@ body{
     background-position: center;
     background-size: cover;
     position: relative; 
+    
 }
 
 nav {
+  
     display: flex;
     padding: 10px 150px;
     justify-self: center;
@@ -51,6 +54,7 @@ nav img {
     padding: 0px 50px;
     flex-wrap: wrap;
     justify-content: center;
+    
 
 }
 
@@ -435,6 +439,7 @@ nav .bi.bi-list {
         grid-template-areas: 
         "logo product resource resource business"   
         "social social . design design";
+        padding: 25px 1px;
       }
       
       li {
@@ -468,8 +473,12 @@ nav .bi.bi-list {
       }
       
       .logo h4 {
-        line-height: 1rem;
-        margin-left: 2rem;
+        line-height: 5rem;
+        margin-left: 1rem;
+        font-size: 20px;
+        border-left: 1px solid white;
+        padding: 0px 10px;
+        
       }
       
       .copy {
@@ -478,7 +487,7 @@ nav .bi.bi-list {
         color: #7d8287;
       }
       
-      .product {
+      .links {
         grid-area: product;
       }
       
