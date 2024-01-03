@@ -488,16 +488,45 @@ nav .bi.bi-list {
       }
       
       .links {
-        grid-area: product;
+        grid-area: links;
       }
       
-      .resource {
-        grid-area: resource;
+      .initiative {
+        grid-area: initiative;
       }
       
-      .business {
-        grid-area: business;
+      .contact {
+        border: 1px solid #ccc;
+        
+        width: 200px;
+        grid-area: contact;
+        margin-top: -12rem;
+        margin-right: 10rem;
+        padding: 10px 0px;
+        /* padding-right: .2rem; */
       }
+      /* .contact img{
+        display: flex;
+        width: 20px;
+
+        height: 20px;
+        padding-left: -1px ;
+      } */
+      .contact p{
+        display: inline-block;
+        font-size: 16px;
+        padding-left: 10px;
+        margin: 0px -10px;
+        padding-top: 1px;
+        color: #eef5fc;
+        padding: 3px 10px;
+      }
+      .contact p img{
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+            
+        }
       
       .social { 
         grid-area: social;
