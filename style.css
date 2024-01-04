@@ -12,7 +12,7 @@
 }
 body{
   background-image: radial-gradient(#0c0000, #080018);
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   
 }
 
@@ -101,7 +101,7 @@ nav img {
     display: flex;
     height: 110vh; /* Full height of the viewport */
     max-width: 60%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .left-section,
 .right-section {
@@ -205,6 +205,15 @@ nav img {
 
     
 }
+.left-section dotlottie-player{
+  margin-left: 10px;
+  margin-top: 30px;
+  
+
+}
+.left-section a dotlottie-player:hover{
+  cursor: pointer;
+}
 
 
 
@@ -217,7 +226,12 @@ nav img {
     /* border: 1px solid green; */
     box-sizing: border-box;
     text-align: right;
-    border: 2px solid white;
+    /* border: 2px solid white; */
+  }
+  .right-section img{
+    border: 1px solid white;
+    margin: 90px 10px;
+    
   }
 /* .text-box {
     width: 90%;
@@ -304,7 +318,7 @@ nav .bi.bi-list {
     display: flex;
     height: 33vh; /* Full height of the viewport */
     max-width: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: 20%;
     margin-top: -5%;
     padding: 10px 10px;
@@ -323,7 +337,7 @@ nav .bi.bi-list {
   }
   .first-line{
     animation: slideIn 0.8s ease-out;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     font-size: 35px;
     font-style: italic;
     
@@ -342,7 +356,7 @@ nav .bi.bi-list {
 .second-line{
 
   animation: slideIn 1s ease-out;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-size: 55px;
   margin-top: -45px;
 }
@@ -366,7 +380,7 @@ nav .bi.bi-list {
   .welcome-text{
       color: white;
       font-size: 27px;
-      border: 1px solid white;
+      /* border: 1px solid white; */
       margin-left: 400px;
       margin-top: 10px;
       padding: 1px 30px;
@@ -385,11 +399,11 @@ nav .bi.bi-list {
         margin-left: 1px;
                           
         object-fit:contain;
-        border: 2px solid pink;
+        /* border: 2px solid pink; */
       }
       
       .carousel-caption {
-        border: 2px solid greenyellow;
+        /* border: 2px solid greenyellow; */
         display: flex;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 10px;
@@ -408,7 +422,7 @@ nav .bi.bi-list {
         outline: rgb(0, 0, 0) auto 1px;
         background-size: 100%, 100%;
         border-radius: 50%;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         background-image: none;
       }
       
@@ -430,7 +444,7 @@ nav .bi.bi-list {
         position: relative;
         font-family: sans-serif;
         height: 20%;
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         background-color: rgba(0, 0, 0, 0.336);
         color: white;
         display: grid;
@@ -490,7 +504,7 @@ nav .bi.bi-list {
       .Links {
         /* grid-area: links; */
         color: #eef5fc;
-        border: 2px solid white;
+        
       }
       .Links .ul {
         display: flex;
@@ -515,7 +529,7 @@ nav .bi.bi-list {
       }
       
       .contact {
-        border: 1px solid #ccc;
+        /* border: 1px solid #ccc; */
         max-height: 12rem;
         width: 200px;
         grid-area: contact;
@@ -559,7 +573,7 @@ nav .bi.bi-list {
         padding-bottom: .3rem; 
         font-size: .6em;
         display: flex;
-        border: 1px solid green;
+        /* border: 1px solid green; */
         margin: 25px 25px;
         width: 250px;
       }
