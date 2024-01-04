@@ -388,8 +388,10 @@ nav .bi.bi-list {
       height: 50vh;
     }
       /* whats latest */
+
+      
       .carousel-item {
-        height: 600px;
+        height: 500px;
         background-image: radial-gradient(#0c0000, #080018);  
       }
       
@@ -442,6 +444,7 @@ nav .bi.bi-list {
       /* footer part */
 
       #footer {
+        margin-top: 50px;
         position: relative;
         font-family: sans-serif;
         height: 20%;
@@ -526,6 +529,8 @@ nav .bi.bi-list {
       .Links  a:hover {
         color: #e25e06 !important;
         text-decoration: none;
+        font-size: large;
+
       }
 
 
@@ -541,6 +546,7 @@ nav .bi.bi-list {
       .initiatives a:hover{
         color: #e25e06 !important;
         text-decoration: none;
+        font-size: large;
       }
 
       
@@ -598,6 +604,12 @@ nav .bi.bi-list {
         width: 250px;
       }
       .social a{
+        padding: 2px 8px;
+        color: #eef5fc;
+        display: inline-block;
+      }
+      .social a img:hover{
+        cursor: pointer !important;
         padding: 2px 8px;
         color: #eef5fc;
         display: inline-block;
