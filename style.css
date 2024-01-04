@@ -487,9 +487,28 @@ nav .bi.bi-list {
         color: #7d8287;
       }
       
-      .links {
-        grid-area: links;
+      .Links {
+        /* grid-area: links; */
+        color: #eef5fc;
+        border: 2px solid white;
       }
+      .Links .ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      .Links .ul li {
+        margin: 0 10px;
+        
+      }
+      
+      .Links ul li a {
+        color: #f7fcee !important;
+        text-decoration: none;
+      }
+
       
       .initiative {
         grid-area: initiative;
@@ -497,10 +516,10 @@ nav .bi.bi-list {
       
       .contact {
         border: 1px solid #ccc;
-        
+        max-height: 12rem;
         width: 200px;
         grid-area: contact;
-        margin-top: -14rem;
+        margin-top: -18rem;
         margin-right: 3rem;
         padding: 10px 0px;
         /* padding-right: .2rem; */
@@ -518,8 +537,14 @@ nav .bi.bi-list {
         padding-left: 10px;
         margin: 0px -10px;
         padding-top: 1px;
-        color: #eef5fc;
+        color: #cecece;
         padding: 3px 10px;
+      }
+      .contact  h6{
+        display: flex;
+        padding: 1px 50px;
+        font-size: 19px;
+        font-family: 'poppins', sans-serif;
       }
       .contact p img{
         display: inline-block;
