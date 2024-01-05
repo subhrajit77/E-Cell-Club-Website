@@ -38,6 +38,10 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', handleScroll);
 });
 
+
+
+
+
 // carousel for whats latest
 document.addEventListener('DOMContentLoaded', (event) => {
     var myCarousel = document.querySelector('#carouselExampleCaptions')
@@ -46,5 +50,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // pause: "hover"
     });
 });
+$(document).ready(function() {
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 200) {
+        $('.welcome-container').addClass('visible');
+      } else {
+        $('.welcome-container').removeClass('visible');
+      }
+    });
+  });
 
 
