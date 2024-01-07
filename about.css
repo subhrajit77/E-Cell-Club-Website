@@ -27,13 +27,21 @@ body{
     padding: 10px 150px;
     justify-self: center;
     align-items: center;
+    
     /* background-color: aqua; */
     /* border: 2px solid red; */
 
 }
+.navbar{
+  transition: background-color 0.5s;
+  
+}
+.navbar.scrolled{
+  background-color: #080018;
+}
 
-nav img {
-    width: 90px;
+.navbar img {
+    width: 65px;
     margin-left: -10%;
 }
 
@@ -220,7 +228,7 @@ nav img {
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
     background-clip: padding-box;
     border-radius: 45px;
-    padding: 40px;
+    padding: 23px;
     img {
       margin-bottom: 32px;
     }
