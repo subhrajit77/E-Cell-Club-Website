@@ -473,6 +473,27 @@ nav .bi.bi-list {
         color: rgb(255, 255, 255);
       }
       
+
+      /* Quote section  */
+
+        #quote-section{
+          color: white;
+          border: 2px solid yellow;
+        }
+        #quote-section h2{
+          color: rgb(228, 223, 223);
+          border: 2px solid yellow;
+        }
+        #quote-section p{
+          color: rgb(255, 239, 239);
+          border: 2px solid yellow;
+        }
+        
+
+
+
+
+
       /* footer part */
 
       #footer {
@@ -561,7 +582,7 @@ nav .bi.bi-list {
       .Links  a:hover {
         color: #e25e06 !important;
         text-decoration: none;
-        font-size: large;
+        font-size: medium;
 
       }
 
@@ -578,7 +599,7 @@ nav .bi.bi-list {
       .initiatives a:hover{
         color: #e25e06 !important;
         text-decoration: none;
-        font-size: large;
+        font-size:medium
       }
 
       

@@ -60,6 +60,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // pause: "hover"
     });
 });
+
+//quote section
+function updateQuote() {
+  fetch('https://api.quotable.io/random')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('quote').textContent = data.content;
+    });
+}
+// Update the quote immediately, then every 10 seconds
+updateQuote();
+setInterval(updateQuote, 10000);
+
+
+
+
+
+// welcome container
 $(document).ready(function() {
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
