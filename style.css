@@ -249,6 +249,12 @@ nav img {
     margin: 90px 10px;
     
   }
+  #lottie-player {
+    position: fixed;
+    transition: transform 0.5s;
+  }
+
+
 /* .text-box {
     width: 90%;
     color: white;
@@ -478,7 +484,7 @@ nav .bi.bi-list {
 
       .blockquote-wrapper {
         display: flex;
-        height: 90vh;
+        height: 85vh;
         padding: 0 20px;
         background-image: radial-gradient(#0c0000, #080018);
      }
@@ -546,7 +552,7 @@ nav .bi.bi-list {
      .blockquote h4 {
          position: relative;
          color: #ffffff;
-         font-size: 1.3rem;
+         font-size: 1.1rem;
          font-weight: 400;
          line-height: 1.2;
          margin: 0;

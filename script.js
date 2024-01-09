@@ -24,6 +24,16 @@ function toggleNav() {
 document.querySelector('.bi.bi-list').addEventListener('click', toggleNav);
 document.querySelector('.bi.bi-x-lg').addEventListener('click', toggleNav);
 
+//for rocket animation
+window.addEventListener('scroll', function () {
+  let lottiePlayer = document.getElementById('lottie-player');
+  let scrollPosition = window.scrollY;
+  lottiePlayer.style.transform = `translateY(-${scrollPosition}px)`;
+});
+
+
+
+
 //   scroll down animation
 document.addEventListener('DOMContentLoaded', function () {
     let welcomeContainer = document.querySelector('.welcome');
