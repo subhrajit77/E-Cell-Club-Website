@@ -490,6 +490,7 @@ nav .bi.bi-list {
          max-width: 620px;
          margin: 80px auto;
          align-self: center;
+         background-color: #08001828;
      }
      
      /* Blockquote header */
@@ -526,7 +527,7 @@ nav .bi.bi-list {
          content:"";
          position: absolute;
          width: 80px;
-         border: 6px solid  #080018;
+         border: 2px solid  #05000ff3;
          bottom: -3px;
          left: 50px;
          z-index: 2;
