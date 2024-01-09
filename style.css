@@ -494,11 +494,11 @@ nav .bi.bi-list {
      }
      
      /* Blockquote header */
-     .blockquote h1 {
+     .blockquote h2 {
          font-family: 'Abril Fatface', cursive;
          position: relative; /* for pseudos */
          color: #e74848;
-         font-size: 1.8rem;
+         font-size: 1.4rem;
          font-weight: normal;
          line-height: 1;
          margin: 0;
@@ -509,7 +509,7 @@ nav .bi.bi-list {
      }
      
      /* Blockquote right double quotes */
-     .blockquote h1:after {
+     .blockquote h2:after {
          content:"";
          position: absolute;
          border: 2px solid #e74848;
@@ -523,11 +523,11 @@ nav .bi.bi-list {
          z-index: 3; 
      }
      
-     .blockquote h1:before {
+     .blockquote h2:before {
          content:"";
          position: absolute;
          width: 80px;
-         border: 2px solid  #05000ff3;
+         border: 2px solid  #080018f3;
          bottom: -3px;
          left: 50px;
          z-index: 2;
@@ -535,7 +535,7 @@ nav .bi.bi-list {
      
      /* increase header size after 600px */
      @media all and (min-width: 600px) {
-         .blockquote h1 {
+         .blockquote h2.blockquote {
              font-size: 3rem;
              line-height: 1.2;
         }
