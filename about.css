@@ -471,7 +471,7 @@ body{
   display: flex;
   border: 2px solid salmon;
   color: #e7e7e7;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 200;
   margin-bottom: 20px;
   margin-left: 100px;
@@ -480,9 +480,13 @@ body{
 .membership-info #info{
   /* color: rgb(223, 213, 213); */
   display: flex;
-  border: 2px solid green; 
+  
+  width: 630px;
+  border: 0px solid green; 
+  border-radius: 10px;
   margin: 10px 0px;
   margin-left: 250px;
+  /* background-color: #04002550; */
 }
 .membership-info #think{
   color: rgb(223, 213, 213);
@@ -491,6 +495,15 @@ body{
   margin: 10px 0px;
   margin-left: -290px;
 
+}
+.join-us{
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(4, 1, 20, 0.384);
+  width: 600px;
+  font-size: 19px;
+  height: 180px;
+  margin: -90px 650px;
 }
 
 
