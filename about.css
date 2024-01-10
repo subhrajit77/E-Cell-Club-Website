@@ -306,12 +306,33 @@ body{
 
   /* Club activities and programs section */
 
+  .activity-container{
+   
+    border: 2px solid blue
+    
+  }
+  .activity-container .heading{
+    border: 2px solid rgb(20, 219, 233);
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    
+    width: 600px;
+    margin-top: 180px;
+    margin-left: 380px;
+    display: flexbox;
+    align-items: center;
+      
+  }
+
   .row{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 300px 50px;
+    margin: 90px 50px;
+    border: 2px solid salmon;
   }
+  
   .card-circle{
     text-align:center;
      margin-top:50px;
@@ -323,9 +344,13 @@ body{
      border-radius:50%;
      border: 2px solid rgb(209, 209, 209);
 }
+.card-body img{
+  /* border: 1px solid green; */
+  margin: -25px 0px;
+}
  .card-circle .card-title{
     font-weight:500;
-     font-size:26px;
+     font-size:24px;
 }
  .card-circle .card-text{
     font-weight:400;
@@ -335,7 +360,7 @@ body{
      display:block;
 }
  .card-circle:nth-child(2){
-    background:#142850f6;
+    background:#000818f6;
 }
  .card-circle .btn{
     Font-family: Montserrat;
@@ -349,6 +374,12 @@ body{
 .card-circle .btn,.card-circle .card-icon i,.card-circle{
    transition: all ease-in-out 0.2s;
 }
+ .card-circle:hover .btn{
+    background:#00A8CC;
+     color:#fff;
+   border: 1px solid transparent;
+ }
+ 
  .card-circle:hover .btn{
     background:#00A8CC;
      color:#fff;
