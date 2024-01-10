@@ -6,3 +6,18 @@ window.addEventListener('scroll', function () {
     navbar.classList.remove('scrolled');
   }
 });
+
+let observer = new IntersectionObserver(function (entries) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    } else {
+      entry.target.classList.remove('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+let cards = document.querySelectorAll('.animate-on-scroll');
+cards.forEach(card => {
+  observer.observe(card);
+});
