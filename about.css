@@ -456,8 +456,9 @@ body{
 
 .membership-info{
   /* color: #d4cdcd; */
-  display: block;
+  display: inline-block;
   margin: 100px 400px;
+  border: 2px solid blue;
 }
 .membership-info h2{
   color: #e64716;
@@ -467,18 +468,29 @@ body{
   /* margin-left: 100px; */
 }
 .membership-info p{
+  display: flex;
+  border: 2px solid salmon;
   color: #e7e7e7;
   font-size: 18px;
   font-weight: 200;
   margin-bottom: 20px;
   margin-left: 100px;
+  margin-top: -280px;
 }
 .membership-info #info{
-  color: rgb(223, 213, 213);
+  /* color: rgb(223, 213, 213); */
   display: flex;
   border: 2px solid green; 
   margin: 10px 0px;
   margin-left: 250px;
+}
+.membership-info #think{
+  color: rgb(223, 213, 213);
+  display: flex;
+  border: 2px solid green; 
+  margin: 10px 0px;
+  margin-left: -290px;
+
 }
 
 
