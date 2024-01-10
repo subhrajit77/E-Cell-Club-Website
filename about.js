@@ -25,3 +25,8 @@ cards.forEach(card => {
 
 
 // circular cards animation
+
+
+
+// membership section animations
+

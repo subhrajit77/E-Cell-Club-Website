@@ -450,6 +450,51 @@ body{
 
 
 
+
+
+/* membership section stylings  */
+
+.membership-info{
+  /* color: #d4cdcd; */
+  display: block;
+  margin: 100px 400px;
+}
+.membership-info h2{
+  color: #e64716;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  /* margin-left: 100px; */
+}
+.membership-info p{
+  color: #e7e7e7;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+.membership-info #info{
+  color: rgb(223, 213, 213);
+  display: flex;
+  border: 2px solid green; 
+  margin: 10px 0px;
+  margin-left: 250px;
+}
+
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
 /* footer part */
 
 #footer {
