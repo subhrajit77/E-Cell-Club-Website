@@ -497,13 +497,26 @@ body{
 
 }
 .join-us{
+  display: flex;
+  
   border: 2px solid white;
   color: white;
   background-color: rgba(4, 1, 20, 0.384);
-  width: 600px;
+  width: 700px;
   font-size: 19px;
   height: 180px;
-  margin: -90px 650px;
+  margin: -90px 450px;
+}
+.join-us h3{
+  border: 2px solid white;
+  width: 850px;
+  padding: 30px 0px;
+  color: #e64716d7;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 4px;
 }
 
 
