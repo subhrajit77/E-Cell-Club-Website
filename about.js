@@ -21,3 +21,7 @@ let cards = document.querySelectorAll('.animate-on-scroll');
 cards.forEach(card => {
   observer.observe(card);
 });
+
+
+
+// circular cards animation

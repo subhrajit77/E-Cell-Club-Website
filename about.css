@@ -174,7 +174,7 @@ body{
   } */
   
 
-  /* Cards section */
+  /* goals section */
   .container {
     width: 1200px !important;
     padding: 0 !important;
@@ -194,6 +194,9 @@ body{
       padding: 0 !important;
       width: auto !important;
     }
+  }
+  .container-title span{
+    color: rgba(255, 72, 0, 0.938);
   }
   
   .gradient-cards {
@@ -324,6 +327,9 @@ body{
     align-items: center;
       
   }
+  .heading span{
+    color:rgba(255, 72, 0, 0.89);
+  }
 
   .row{
     display: flex;
@@ -434,7 +440,8 @@ body{
          z-index:1;
     }
 }
-    
+/* circular cards animation */
+
   
 
 
