@@ -41,8 +41,10 @@ body{
 }
 
 .navbar img {
-    width: 65px;
+    width: 60px;
     margin-left: -10%;
+    /* border: 1px solid salmon; */
+    border-radius: 0%;
 }
 
 .nav-links {
@@ -101,10 +103,12 @@ body{
 .container{
     max-width: 990px;
     margin:auto;
+    margin-top: 25px;
     /* border: 2px solid yellow; */
+    border-radius: 40px;
     font-family: 'Raleway', sans-serif;
     /* background-color: #080018; */
-    background: linear-gradient(71deg, #0805098f, #1a171c88, #08050988);
+    background: linear-gradient(71deg, #08050941, #1a171c71, #0805094f);
   }
   .section-title{
     width: 100%;
@@ -119,6 +123,10 @@ body{
     color: #ece3e3;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
+  }
+  .section-title p{
+    color: #cecece;
+    margin-top: 30px;
   }
   .row{
     display: flex;
@@ -213,7 +221,7 @@ body{
     transition: all 0.5s ease;
   }
   .team-item .social-links a:hover{
-    border: 3px solid #000;
+    border: 3px solid #d33c00;
   }
   
   .fa-facebook {

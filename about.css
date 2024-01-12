@@ -336,7 +336,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin: 90px 50px;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
   }
   
   .card-circle{
