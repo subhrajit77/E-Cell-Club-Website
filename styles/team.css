@@ -100,6 +100,36 @@ body{
 
 /* teams section */
 
+.team h2{
+  color: rgb(226, 224, 219);
+  /* border: 2px solid salmon; */
+  margin: auto;
+  width: 300px;
+  height: 50px;
+  /* d */
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  position:relative;
+  align-items: center;
+  /* padding: 5px 30px; */
+}
+.team #team{
+  font-size: 35px;
+  
+  /* text-transform: uppercase; */
+  color: #dd3005;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+.team p{
+  color: #cecece;
+  margin-top: 50px;
+  margin-left: 170px;
+  font-size: 18px;
+  /* margin: auto; */
+  width: 1000px;
+}
 .container{
     max-width: 990px;
     margin:auto;
@@ -110,6 +140,8 @@ body{
     /* background-color: #080018; */
     background: linear-gradient(71deg, #08050941, #1a171c71, #0805094f);
   }
+  
+
   .section-title{
     width: 100%;
     padding:0 15px;
@@ -123,11 +155,12 @@ body{
     color: #ece3e3;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
+    width: 450px;
+    margin-top: 20px;
   }
-  .section-title p{
-    color: #cecece;
-    margin-top: 30px;
-  }
+  
+
+  
   .row{
     display: flex;
     flex-wrap: wrap;
