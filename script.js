@@ -73,12 +73,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 //quote section
 function updateQuote() {
-  fetch('https://api.quotable.io/random')
+  fetch('https://type.fit/api/quotes')
     .then(response => response.json())
     .then(data => {
-      document.getElementById('quote').textContent = data.content;
-    });
+      let randomIndex = Math.floor(Math.random() * data.length);
+      let randomQuote = data[randomIndex];
+      document.getElementById('quote').textContent = `"${randomQuote.text}"`;
+      // document.getElementById('author').textContent = `— ${randomQuote.author}`;
+    })
+    .catch(error => console.log('Error:', error));
 }
+
 // Update the quote immediately, then every 10 seconds
 updateQuote();
 setInterval(updateQuote, 10000);
