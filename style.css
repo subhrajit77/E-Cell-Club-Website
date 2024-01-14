@@ -35,7 +35,7 @@ nav {
   top: 0;
   z-index: 1000;
   display: flex;
-  padding: 10px 150px;
+  padding: 18px 150px;
   justify-self: center;
   align-items: center;
   position: sticky;
@@ -45,14 +45,14 @@ nav {
   /* border: 2px solid red; */
 
 }
-.nav{
+#nav{
  
 transition: background-color 0.5s;
 
 }
-.nav.scrolled{
+#navbar.scrolled{
 
-background-color: #ffbaba;
+background-color: #080018;
 }
 
 nav img {

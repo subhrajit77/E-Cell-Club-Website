@@ -1,6 +1,6 @@
-window.addEventListener('scroll', function () {
-  let navbar = document.querySelector('.navbar');
-  if (window.scrollY > 100) { /* Change the value based on when you want the color to change */
+window.addEventListener('scroll', function() {
+  const navbar = document.getElementById('navbar');
+  if (window.scrollY > 100) {
     navbar.classList.add('scrolled');
   } else {
     navbar.classList.remove('scrolled');
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', (event) => {
     var myCarousel = document.querySelector('#carouselExampleCaptions')
     var carousel = new bootstrap.Carousel(myCarousel, {
-        interval: 1000,
+        interval: 100,
         // pause: "hover"
     });
 });
