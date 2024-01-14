@@ -104,7 +104,7 @@ body{
     padding: 20px;
     background-image: radial-gradient(#0c0000, #080018);
     background-repeat: no-repeat;
-    border: 2px solid #e25e06;
+    /* border: 2px solid #e25e06; */
   }
   
   .intro-text {
@@ -116,14 +116,14 @@ body{
     margin-left: 10px;
     /* margin: 10px 50px; */
     padding: 80px 0px;
-    border: 2px solid #e6ff06;;
+    /* border: 2px solid #e6ff06;; */
   }
   
   .intro-text h1 {
     
     font-size: 4em;
     color: #e64716;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
     margin: 60px 170px;
     width: 250px;
@@ -136,7 +136,7 @@ body{
     margin-right:40px ;
     font-size: 1.5em;
     color: #d4cdcd;
-    border: 2px solid #e6ff06;
+    /* border: 2px solid #e6ff06; */
     text-align: center;
   }
   
@@ -311,11 +311,11 @@ body{
 
   .activity-container{
    
-    border: 2px solid blue
+    /* border: 2px solid blue */
     
   }
   .activity-container .heading{
-    border: 2px solid rgb(20, 219, 233);
+    /* border: 2px solid rgb(20, 219, 233); */
     color: white;
     font-size: 40px;
     font-weight: 600;
@@ -458,7 +458,7 @@ body{
   /* color: #d4cdcd; */
   display: inline-block;
   margin: 100px 400px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .membership-info h2{
   color: #e64716;
@@ -469,7 +469,7 @@ body{
 }
 .membership-info p{
   display: flex;
-  border: 2px solid salmon;
+  /*  border: 2px solid salmon; */
   color: #e7e7e7;
   font-size: 20px;
   font-weight: 200;
@@ -482,7 +482,7 @@ body{
   display: flex;
   
   width: 630px;
-  border: 0px solid green; 
+  /* border: 0px solid green;  */
   border-radius: 10px;
   margin: 10px 0px;
   margin-left: 250px;
@@ -491,7 +491,7 @@ body{
 .membership-info #think{
   color: rgb(223, 213, 213);
   display: flex;
-  border: 2px solid green; 
+  /* border: 2px solid green;  */
   margin: 10px 0px;
   margin-left: -290px;
 
@@ -499,16 +499,16 @@ body{
 .join-us{
   display: flex;
   
-  border: 2px solid white;
+  /* border: 2px solid white; */
   color: white;
   background-color: rgba(4, 1, 20, 0.384);
   width: 700px;
   font-size: 19px;
   height: 300px;
-  margin: -90px 450px;
+  margin: -90px 410px;
 }
 .join-us h3{
-  border: 2px solid white;
+  /* border: 2px solid white; */
   width: 850px;
   padding: 30px 0px;
   color: #fff4f1d7;
