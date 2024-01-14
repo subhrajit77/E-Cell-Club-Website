@@ -38,21 +38,22 @@ nav {
   padding: 10px 150px;
   justify-self: center;
   align-items: center;
+  position: sticky;
   
   
   /* background-color: aqua; */
   /* border: 2px solid red; */
 
 }
-/* .navbar{
+.nav{
  
 transition: background-color 0.5s;
 
 }
-.navbar.scrolled{
+.nav.scrolled{
 
-background-color: #ffffff;
-} */
+background-color: #ffbaba;
+}
 
 nav img {
   width: 65px;
@@ -739,11 +740,13 @@ nav .bi.bi-list {
         padding: 2px 8px;
         color: #eef5fc;
         display: inline-block;
+        /* border: 1px solid red; */
       }
       .social a img:hover{
         cursor: pointer !important;
-        padding: 2px 8px;
+        padding: 2px 4px;
         color: #eef5fc;
+        transform: scale(1.4);
         display: inline-block;
       }
       .social h6{ 

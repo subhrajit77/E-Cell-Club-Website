@@ -776,7 +776,7 @@ body{
   
   .social { 
     grid-area: social;
-    padding-left: 1.3rem;
+    /* padding-left: 1.3rem; */
     padding-bottom: .3rem; 
     font-size: .6em;
     display: flex;
@@ -785,14 +785,17 @@ body{
     width: 250px;
   }
   .social a{
-    padding: 2px 8px;
+    padding: 0px 0px;
+    width: 65px;
     color: #eef5fc;
     display: inline-block;
+    /* border: 1px solid red; */
   }
   .social a img:hover{
     cursor: pointer !important;
-    padding: 2px 8px;
+    padding: 2px 4px;
     color: #eef5fc;
+    transform: scale(1.4);
     display: inline-block;
   }
   .social h6{ 

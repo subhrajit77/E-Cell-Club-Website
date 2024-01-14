@@ -267,8 +267,9 @@ body{
   }
   .social a img:hover{
     cursor: pointer !important;
-    padding: 2px 8px;
+    padding: 2px 4px;
     color: #eef5fc;
+    transform: scale(1.4);
     display: inline-block;
   }
   .social h6{ 
