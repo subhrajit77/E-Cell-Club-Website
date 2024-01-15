@@ -200,7 +200,7 @@ body{
   .team-item h4{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    background: #000; 
+    background: #070707bd; 
     right: 0;
     bottom: 15px;
     padding: 2px 10px;
@@ -215,6 +215,7 @@ body{
   }
   .team-item:hover h4{
     right: 15px;
+    background: #070707ee;
   }
   .team-item h4 span{
     display: block;
