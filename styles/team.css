@@ -299,7 +299,7 @@ body{
     max-width: 990px;
     margin:auto;
     margin-top: 25px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     border-radius: 40px;
     font-family: 'Raleway', sans-serif;
     /* background-color: #080018; */
@@ -465,7 +465,7 @@ body{
     max-width: 990px;
     margin:auto;
     margin-top: 25px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     border-radius: 40px;
     font-family: 'Raleway', sans-serif;
     /* background-color: #080018; */
