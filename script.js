@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (scrollPosition >= elementPosition - threshold) {
             welcomeContainer.style.opacity = '1';
-            welcomeContainer.style.transform = 'translateY(0)';
+            welcomeContainer.style.transform = 'translateY(90px)';
         }
     }
 
