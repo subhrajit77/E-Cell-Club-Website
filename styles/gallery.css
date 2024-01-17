@@ -115,6 +115,7 @@ padding: 20px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+border: 1px solid green;
 }
 
 .gallery-image img {
@@ -127,8 +128,10 @@ transition: transform 0.4s ease;
 .img-box {
 box-sizing: content-box;
 margin: 10px;
-height: 250px;
-width: 350px;
+height: 350px;
+width: 480px;
+width: calc((100% / 3) - 30px);
+border-radius: 15px;
 overflow: hidden;
 display: inline-block;
 color: white;
