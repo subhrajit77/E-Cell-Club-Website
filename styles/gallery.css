@@ -109,6 +109,17 @@ body{
   padding: 40px;
   color: white;
 }
+.gallery-description{
+  color: #b6b5b5;
+  font-size: 18px;
+  display: flex;
+  /* border: 1px solid #ccc; */
+  width: 1200px;
+  margin: 1px 80px;
+  padding: 1px 100px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
 
 .gallery-image {
 padding: 20px;
@@ -150,7 +161,7 @@ transition: transform 0.3s ease, opacity 0.3s ease;
 .transparent-box {
 height: 250px;
 width: 350px;
-background-color:rgba(0, 0, 0, 0);
+/* background-color:rgb(255, 255, 255); */
 position: absolute;
 top: 0;
 left: 0;
@@ -162,7 +173,7 @@ transform: scale(1.1);
 }
 
 .img-box:hover .transparent-box {
-background-color:rgba(0, 0, 0, 0.5);
+/* background-color:rgba(0, 0, 0, 0.5); */
 }
 
 .img-box:hover .caption {
