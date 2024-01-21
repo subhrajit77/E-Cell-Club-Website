@@ -126,7 +126,7 @@ padding: 20px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-border: 2px solid greenyellow;
+/* border: 2px solid greenyellow; */
 }
 
 .gallery-image img {
