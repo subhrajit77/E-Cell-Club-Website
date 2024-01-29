@@ -98,6 +98,19 @@ body{
     width: 100%;
 }
 
+/* navbar scrolled */
+.navbar {
+  transition: background-color 0.5s;
+}
+
+.navbar.scrolled {
+  background-color: #080018; /* Replace with the color you want */
+}
+
+
+
+
+
 /* Events section */
 .card {
   box-shadow: 0 4px 8px 0 rgba(6, 1, 94, 0.986);
