@@ -1,212 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Entrepreneurship Club</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            defer
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+            defer
+        ></script>
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="stylesheet" href="/styles/navbar.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrepreneurship Club</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <body>
+        <nav class="navbar navbar-expand-sm ms-5" id="navbar">
+            <div class="navbar-brand">
+                <img
+                    src="images/logo2.png"
+                    alt="Club Logo"
+                    class="d-inline-block"
+                    id="icon"
+                    width="65px"
+                    height="65px"
+                />
+            </div>
+            <button
+                class="navbar-toggler d-lg-none bg-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navLinks"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-links collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="./about.html">About</a></li>
+                    <li class="nav-item">
+                        <a href="/public/events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/public/team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/public/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item"><a href="#reach-us">Reach us</a></li>
+                </ul>
+            </div>
+        </nav>
 
+        <section class="header" id="home">
+            <div class="container">
+                <div class="left-section">
+                    <div class="text">
+                        <h3 class="animate-character">
+                            <br />Nurturing the Entrepreneur <br />
+                            in you
+                        </h3>
+                        <a href="#welcome"
+                            ><script
+                                src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                                type="module"
+                            ></script>
 
-    
-</head>
+                            <dotlottie-player
+                                src="https://lottie.host/03a99eae-a196-4fd9-a257-b58fcb9716ad/L5igv5vE8i.json"
+                                background="transparent"
+                                speed="0.8"
+                                style="width: 120px; height: 120px"
+                                loop
+                                autoplay
+                            ></dotlottie-player>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <script
+                        src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                        type="module"
+                    ></script>
 
-<body>
-    <nav id="navbar">
-        <img src="images/logo2.png" alt="">
-        <div class="nav-links" id="navLinks">
-            <i class="bi bi-x-lg" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="/public/events.html">Events</a></li>
-                <li><a href="/public/team.html">Team</a></li>
-                <li><a href="/public/gallery.html">Gallery</a></li>
-                <li><a href="#reach-us">Reach us </a></li>
+                    <dotlottie-player
+                        id="lottie-player"
+                        src="https://lottie.host/4d1b6d14-798a-48ef-a821-ce5827d9b1d4/naVIWR3U3i.json"
+                        background="transparent"
+                        speed="1.5"
+                        style="width: 500px; height: 600px"
+                        loop
+                        autoplay
+                    ></dotlottie-player>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="welcome-container" id="welcome">
+                <div class="welcome">
+                    <div class="welcome-box">
+                        <h1>
+                            <div class="first-line">Welcome to</div>
+                            <br />
+                            <div class="second-line">
+                                Entrepreneurship Development Club
+                            </div>
+                        </h1>
+                    </div>
+                    <div class="welcome-text">
+                        <p>
+                            Welcome to the Enterpreneurship and Development Club
+                            at CITK. Our club is dedicated to fostering
+                            innovation, creativity, and entrepreneurial thinking
+                            among our members. Join us to unlock your potential
+                            and bring your ideas to life!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's latest section -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="/images/1remove.png"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            first slide.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="/images/logo2.png"
+                        class="d-block w-100"
+                        alt="image2"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            second slide.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="/images/bg2.png"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            third slide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="blockquote">
+            <h2 id="quote">Loading</h2>
+            <h4 id="author"></h4>
+        </div>
+
+        <div id="footer">
+            <div class="logo">
+                <div class="flex">
+                    <img class="img" src="/images/logo2.png" />
+                    <h4>E-Cell CIT Kokrajhar</h4>
+                </div>
+
+                <div class="copy">
+                    &#169; Enterpreneurship Development Club - All Rights
+                    Reserved
+                </div>
+            </div>
+            <ul class="Links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/public/events.html">Events</a></li>
+              <li><a href="/public/team.html">Team</a></li>
+              <li><a href="/public/gallery.html">Gallery</a></li>
             </ul>
-        </div>
-        <i class="bi bi-list" onclick="showMenu()"></i>
-    </nav>
-
-    <section class="header" id="home">
-        
-
-        <div class="container">
-            <div class="left-section">
-                <div class="text">
-                    <h3 class="animate-character"><br>Nurturing the Entrepreneur <br>
-                         in you</h3>
-                    <!-- <button>Let's Start</button> -->
-                    <a href="#welcome"><script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
-                        type="module"></script>
-
-                    <dotlottie-player src="https://lottie.host/03a99eae-a196-4fd9-a257-b58fcb9716ad/L5igv5vE8i.json"
-                        background="transparent" speed="0.8" style="width: 120px; height: 120px;" loop
-                        autoplay></dotlottie-player>
-                    </a>
-                </div>
+            <ul class="initiatives">
+              <li><b>Useful Links</b></li>
+              <li><a href="https://cit.ac.in/" target="_blank">CIT Kokrajhar</a></li>
+              <li><a href="http://centrallibrary.cit.ac.in/" target="_blank">Central Library</a></li>
+              <li><a href="https://placements.cit.ac.in" target="_blank">Training and placement cell</a></li>
+            </ul>
+            <div class="contact" id="reach-us">
+                <h6>Reach Us</h6>
+                <p>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADeUlEQVR4nO2YS2gTQRiAf/GBtrSC9bWbWkUP1SpFbDPTShXBq+hJBfGoJw8e9GR9o3ixJ0Hc3bSdTVofEWoVWu1BUmNm0mKamWhVUCt40IOKL1BRwZWNLWxeTXswmcV8MLewzJf//2fm/wFKlCjxnxAMzlzqI5sVg7QphvlM1c0vqmEeAplZHgrNVXRzh6KbHapB3qmGaaUsnfxeqnV4QUZwNLHdS/nLFV3XUzedIWHeA9lATBzHTFj2Wtcfmlzgr8Q2kAlMxecJAUS5tYxczicxatcIyAKi4smEgL3W3BrIGwXFIPtAFhDlB5wC3vsjlqc9MLmAbr5e4veXgww0xGJlmPL3Tonanv78tWCYx0AWEOOnU6IQHrGq80TBvhsWBAKVIAPNVCxGjH9PqYWbU6gFLbABZAFTcckpgCJxq8a8MokAGYEToVkgC02MezAVX50S9QPhHOlDHiha90KQDUz5WaeAvVZd603/58MrNW0+yAgaGqrETLxxCjSGY1Z1Z9dE4Q4omlYGMoOjYnd6FOxUUnTyvsrnqwA3gCi/nS5R29M/Bm6hiXEPYvxDyt1A47+8ww8bwS3gCN+bHgXE+Avv8HAVuAVMRXeGBBWDdaOjc8AN1AtRjpkYTZfAVBCwrBngBprpw9WYik9Z0uk8uAUc5Vsw5T8yJcRxcAs4wvdnpNJfiRNT/UaDps1W9c71RbvJcZS3ZpPAVFzIVxOqaVYpOolPPMVVnRwtSlOEGD+XQ4LkOp3svkHVyYMsPcVbRSMHC/6qxZSfzJpOVERawvFFzt9WtwXnqQYZzNNbPPX4/DsLKoFY4kgOiecNLJFsdOy3k/0AnEJ7ao332qGCDs+ShU3Fz3QJ+9lR29P3SjHIh6luXnVMAFUfOVwwCS9NbMVMfMwWjfo7g9ayju7pCRj22Mb8BIWkMZKoxYw/yiZh9xOrrt6YrsAzKMazAzERyHpCjfcUNZP22CmDszYoFl4W35MrpVCEJ6cd+UY2ih7YBMUEDSWqEeX9uaLReD+WHJ552v3Z5k1vpZm9NjG+CzHxOqdIOGat7r1jedq7nEdpB8jExsjTCkTFmfSRTcqxGxmx1vbdtZb7r9kCO0DaNpXyi4iKb7lEEBVjdcGg3M1SSzi+CFN+ClPxLkMimtgObqEhFitLjvapeJw8taK8tdh7KlGiBPxb/gAwKJWlsMaWKAAAAABJRU5ErkJggg=="
+                    />
+                    +91-863-234-5678
+                </p>
+                <br />
+                <p>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE/klEQVR4nO2Y21MbZRjGubeUNqWFhJDdBVJAvbWOVseraqGdhv5XSi1VwikJgSYkBJDitfWq49QLDxwkkLAJOW1O0I5jHYowAo/z7YF8JNlNArQwY96ZdwbC8r3P89vne5mhpqZa1apWtapVLbnuZ3CnJ41kTxo4j21JQ+hJo6tGreQHcM47oWrgHIhDOa1q4F5y76+zFtdTou8Je69UDbT7+Je3A38vnLXIHpW+tfxq0+xa+1fVQMfcBszeddx4GluwJPe3zg31xN7BBz8IYJ08WiZT6hHq+H4TpNunBXT6gi/v8K9Xz1r8Lf8WzO4AOFcELd4UuMl0aQOiidk0zO41fPhj/HdLcm/7rVNP7uPG0yRYux+cJyEKF9tbpgHRxJMszJ51tHtWMt386+DbEv/5yhauuwNSZDzCoXCWtKdcA3ObaJ/bwPXZLMzeGDin/+Dms9S8JbW/+6aEW5IH+OhZVqL+OAJOjgwtnvWUcQdE+sTAE2JgA+bvNtDmE8CNBdExsZK5u74TOW3xt4P/oMMbBONYBeeOFxXOTEhd+hIr4g8NZNE2k0WbLwXOFQJrWyJv4w9LCnsnpp4CPv5pA8zIErgxHuxEQlO8yV3KgBIdSryZiJ/JonU6g1ZfWny9zMgyOryrmbuRndRxxXeFdvDu1BoY2zK48XVw3qSqcMYtiTe5ktoGjkSHpj+dRetUBi2kfRmwrhhM9gBMQwv7nz7PLFlS2K9E/Cc/vwBrWwQzGgTripakrohv1jKgGp1pmb4sXhnGuBMwOdbQPLCITs/qTndop6Tw7vAu3pvhYRpeAutcAzsRL4s6Ed78WGoNA7T4nIFWhb7vqAEykHELMDnDMA75YRqYx83nL1TFf/brn+AIdZsf7HgYHFmRZVJXxBvHBQ0DsvgC+lOF9OmB4hAHMbEKw6Pf0DnF44vgNrVhtvH+bJjETYoMWZGeVEXUjeOSeOOYhgHVi6vQl/8aSoPpgdIw42gUTcMBGPoXoe/7BczwAlodSzANzovUGScPlqzIY1A3jgtoGpNa3UBedNq0okMPdVGUnDEYRngYBgPQW/3QD6yAcfBgyZaZEI5NvYm0U+oSBrQvLk0/f+ghJacAgyMGgz0CvY10TBRzEupN5ExnAobRhLqByqOTosQnD0kZyLDRBPSOBPT2BBrtcTTY4tDb4+Lz+dRNZVAn5ylnahootvOPRCefPhmaT18R75DEN9riaBiJ49pwTGzDqFAxdQN1pqqBk0THmDdQoi+LFw1I4q8NxXB1MCp+bxwTyqZOv83SBiq9uMXo24vQJ+JlA/UDUVwZiIo/L4e6eJZ8nrqBcnY+Jb7g4lJDafEKfVq8aMAaga4/In5NfkeLOjlLOU/VQCU7v/zoUPQHY6hX6FujuNIfge7bCC6T/mZdfEaNegMFQ93AaURH5eIeiY41R18ni7/0SGryWeNITnjuLebOKmmg4p1/zOjoZPGKgbq+MOoehnHxYVh8jqauiCdvSdVAYXTSx975+Re3IDr9uehcIvT7KANfh1H7IIS6vnVcHYoWLABNA6e18xuKRKe+SHQuy9GhxV98EBINXOgN4cJXvPjc4TlaBtjJtJAfHeYUdn6OfqTg4l5S6MvRUejXiuJDeOdLXmzyOXl79dao+j93GV+6i/WmhTey86no6EpEp7Y3R18xQLq2N7Srs0bvqxqoVrWqVa1q/e/qP3Oau9vfx/VtAAAAAElFTkSuQmCC"
+                    /><a href="ecell@cit.ac.in"> ecell@cit.ac.in</a>
+                </p>
+                <br />
+                <p>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADGUlEQVR4nO2aS0hVURSG/8pepDWM7AFFBZk1CdTuXeucHko2qAbRpGkkiaLUJCcNgmjeoIggEGleNGkShRSRSJNUGkVBZVH0VkrF/tjn3m5iaXuf1z1CCxZcLpd//9866yz22ecC/6MQVKyloIWKHgoeUfCOggkqxql4S0U/Bd1UHGMO1chKUNBMxV0qJqmgZZrf3qagsbzGBX0Opv+eggepgrARKyi4Ftn4nyDdzKEqWfMeNlHwJHbzWsoh+tiYlPltFLxJ0DyLV2KYHrbEaz6HagpeJG5eS/mKPtbEY34HFgYjMD3zLOZD+qiIDqA4WwbzLOaZaObzWEfBN8cefkwPncxjK5uwLEjz2XwnGHAEGGUDVkep/kUH498paCUwf0a9I1hARRsVYw4QF8KZz6GKii/W5j3sdijMHmsIwSdzFd0BFIcdqnQihH67g/4hdwDBZeuen6Vt/tFOg5YAl8IA2O1zBB3O4r/XOGkJcN9dvLAFtgGoCQ3go9Zyjdfu4ubGtBH3URkaIBcMCqsh4S5uZrCNeIQdJOuw3BLgq7u44FlmWkjxNAxAr5W4h87Eb2LBnTDi5y3FB8xIDDlGhyyvwDl3gDz2W4qbbHPWF3Q46O9zB2jGYio+WC4wRsFeB/ONxdMKWuR71mCRM0CwkOKKQ5XM3qZ9tnYK2qZQeVvzNDuCUOaLlap3APiVg8HNaSaMj8pi1lJwyqHnOSXrQgMEEIp7IRaNJwW9kcwHAB4Olg0gjwORAQIIc/iUfvX7CMyLB0DhpQ7g2T8g2UEIbqQIcD1W81Me8EdSMD9KxfrYAQIIRVcKvX86EfMBgI+KhG/ofnOQlhhAACHYYH1a4Vb5EQo2J2p+CkRLAgDHUzFfglDcjBHgVmwz3xqgHiuDo/DolR82WqmaL0F42Ol4TDg9x+lBy2K+BFE46wxb/VZkIai4GgKgB1kJNmCp40uQfvpYgiwFFauoeG5h/mVsr4/iDnNGRMHHWcx/pmA7shzMY9cMk8lMnCbMhaCHo9P+ejBpvsNcCprXTQXzP8K8AEEWorj97kpykZ+xubp/rAMA/QAAAABJRU5ErkJggg=="
+                    /><a
+                        href="https://maps.app.goo.gl/P7fJWA84zRoDdpwa9"
+                        target="_blank"
+                    >
+                        Click here</a
+                    >
+                </p>
             </div>
-            <div class="right-section">
-                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
-                    type="module"></script>
-
-                <dotlottie-player id="lottie-player" src="https://lottie.host/4d1b6d14-798a-48ef-a821-ce5827d9b1d4/naVIWR3U3i.json"
-                    background="transparent" speed="1.5" style="width: 500px; height: 600px;" loop
-                    autoplay></dotlottie-player>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="welcome-container" id="welcome">
-            <div class="welcome">
-                <div class="welcome-box">
-                    <h1>
-                        <div class="first-line">Welcome to </div>
-                        <br>
-                        <div class="second-line">Entrepreneurship Development Club</div>
-                    </h1>
-                </div>
-                <div class="welcome-text">
-                    <p>
-                        Welcome to the Enterpreneurship and Development Club at CITK. Our club is dedicated to
-                        fostering innovation, creativity, and entrepreneurial thinking among our members. Join us to
-                        unlock your potential and bring your ideas to life!
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- What's latest section -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/images/1remove.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/images/logo2.png" class="d-block w-100" alt="image2">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/images/bg2.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div class="blockquote">
-        <h2 id="quote">Loading</h2>
-        <h4 id="author"></h4>
-      </div>
-
-
-    <div id="footer">
-        <div class="logo">
-            <div class="flex">
-                <img class="img" src="/images/logo2.png">
-                <h4>E-Cell CIT Kokrajhar</h4>
+            <div class="design">
+                designed with by <span style="color: #065299">Subhrajit</span>
             </div>
 
-            <div class="copy">&#169; Enterpreneurship Development Club - All Rights Reserved</div>
-        </div>
-        <ul class="Links">
-            <li><b>Links</b></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/public/events.html">Events</a></li>
-            <li><a href="/public/team.html">Team</a></li>
-            <li><a href="/public/gallery.html">Gallery</a></li>
-        </ul>
-        <ul class="initiatives">
-            <li><b>Useful Links</b></li>
-            <li><a href="https://cit.ac.in/" target="_blank">CIT Kokrajhar</a></li>
-            <li><a href="http://centrallibrary.cit.ac.in/" target="_blank">Central Library</a></li>
-            <li><a href="https://placements.cit.ac.in" target="_blank">Training and placement cell</a></li>
-        </ul>
-        <div class="contact" id="reach-us">
-            <h6>Reach Us</h6>
-            <p><img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADeUlEQVR4nO2YS2gTQRiAf/GBtrSC9bWbWkUP1SpFbDPTShXBq+hJBfGoJw8e9GR9o3ixJ0Hc3bSdTVofEWoVWu1BUmNm0mKamWhVUCt40IOKL1BRwZWNLWxeTXswmcV8MLewzJf//2fm/wFKlCjxnxAMzlzqI5sVg7QphvlM1c0vqmEeAplZHgrNVXRzh6KbHapB3qmGaaUsnfxeqnV4QUZwNLHdS/nLFV3XUzedIWHeA9lATBzHTFj2Wtcfmlzgr8Q2kAlMxecJAUS5tYxczicxatcIyAKi4smEgL3W3BrIGwXFIPtAFhDlB5wC3vsjlqc9MLmAbr5e4veXgww0xGJlmPL3Tonanv78tWCYx0AWEOOnU6IQHrGq80TBvhsWBAKVIAPNVCxGjH9PqYWbU6gFLbABZAFTcckpgCJxq8a8MokAGYEToVkgC02MezAVX50S9QPhHOlDHiha90KQDUz5WaeAvVZd603/58MrNW0+yAgaGqrETLxxCjSGY1Z1Z9dE4Q4omlYGMoOjYnd6FOxUUnTyvsrnqwA3gCi/nS5R29M/Bm6hiXEPYvxDyt1A47+8ww8bwS3gCN+bHgXE+Avv8HAVuAVMRXeGBBWDdaOjc8AN1AtRjpkYTZfAVBCwrBngBprpw9WYik9Z0uk8uAUc5Vsw5T8yJcRxcAs4wvdnpNJfiRNT/UaDps1W9c71RbvJcZS3ZpPAVFzIVxOqaVYpOolPPMVVnRwtSlOEGD+XQ4LkOp3svkHVyYMsPcVbRSMHC/6qxZSfzJpOVERawvFFzt9WtwXnqQYZzNNbPPX4/DsLKoFY4kgOiecNLJFsdOy3k/0AnEJ7ao332qGCDs+ShU3Fz3QJ+9lR29P3SjHIh6luXnVMAFUfOVwwCS9NbMVMfMwWjfo7g9ayju7pCRj22Mb8BIWkMZKoxYw/yiZh9xOrrt6YrsAzKMazAzERyHpCjfcUNZP22CmDszYoFl4W35MrpVCEJ6cd+UY2ih7YBMUEDSWqEeX9uaLReD+WHJ552v3Z5k1vpZm9NjG+CzHxOqdIOGat7r1jedq7nEdpB8jExsjTCkTFmfSRTcqxGxmx1vbdtZb7r9kCO0DaNpXyi4iKb7lEEBVjdcGg3M1SSzi+CFN+ClPxLkMimtgObqEhFitLjvapeJw8taK8tdh7KlGiBPxb/gAwKJWlsMaWKAAAAABJRU5ErkJggg==">
-                +91-863-234-5678</p><br>
-            <p><img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE/klEQVR4nO2Y21MbZRjGubeUNqWFhJDdBVJAvbWOVseraqGdhv5XSi1VwikJgSYkBJDitfWq49QLDxwkkLAJOW1O0I5jHYowAo/z7YF8JNlNArQwY96ZdwbC8r3P89vne5mhpqZa1apWtapVLbnuZ3CnJ41kTxo4j21JQ+hJo6tGreQHcM47oWrgHIhDOa1q4F5y76+zFtdTou8Je69UDbT7+Je3A38vnLXIHpW+tfxq0+xa+1fVQMfcBszeddx4GluwJPe3zg31xN7BBz8IYJ08WiZT6hHq+H4TpNunBXT6gi/v8K9Xz1r8Lf8WzO4AOFcELd4UuMl0aQOiidk0zO41fPhj/HdLcm/7rVNP7uPG0yRYux+cJyEKF9tbpgHRxJMszJ51tHtWMt386+DbEv/5yhauuwNSZDzCoXCWtKdcA3ObaJ/bwPXZLMzeGDin/+Dms9S8JbW/+6aEW5IH+OhZVqL+OAJOjgwtnvWUcQdE+sTAE2JgA+bvNtDmE8CNBdExsZK5u74TOW3xt4P/oMMbBONYBeeOFxXOTEhd+hIr4g8NZNE2k0WbLwXOFQJrWyJv4w9LCnsnpp4CPv5pA8zIErgxHuxEQlO8yV3KgBIdSryZiJ/JonU6g1ZfWny9zMgyOryrmbuRndRxxXeFdvDu1BoY2zK48XVw3qSqcMYtiTe5ktoGjkSHpj+dRetUBi2kfRmwrhhM9gBMQwv7nz7PLFlS2K9E/Cc/vwBrWwQzGgTripakrohv1jKgGp1pmb4sXhnGuBMwOdbQPLCITs/qTndop6Tw7vAu3pvhYRpeAutcAzsRL4s6Ed78WGoNA7T4nIFWhb7vqAEykHELMDnDMA75YRqYx83nL1TFf/brn+AIdZsf7HgYHFmRZVJXxBvHBQ0DsvgC+lOF9OmB4hAHMbEKw6Pf0DnF44vgNrVhtvH+bJjETYoMWZGeVEXUjeOSeOOYhgHVi6vQl/8aSoPpgdIw42gUTcMBGPoXoe/7BczwAlodSzANzovUGScPlqzIY1A3jgtoGpNa3UBedNq0okMPdVGUnDEYRngYBgPQW/3QD6yAcfBgyZaZEI5NvYm0U+oSBrQvLk0/f+ghJacAgyMGgz0CvY10TBRzEupN5ExnAobRhLqByqOTosQnD0kZyLDRBPSOBPT2BBrtcTTY4tDb4+Lz+dRNZVAn5ylnahootvOPRCefPhmaT18R75DEN9riaBiJ49pwTGzDqFAxdQN1pqqBk0THmDdQoi+LFw1I4q8NxXB1MCp+bxwTyqZOv83SBiq9uMXo24vQJ+JlA/UDUVwZiIo/L4e6eJZ8nrqBcnY+Jb7g4lJDafEKfVq8aMAaga4/In5NfkeLOjlLOU/VQCU7v/zoUPQHY6hX6FujuNIfge7bCC6T/mZdfEaNegMFQ93AaURH5eIeiY41R18ni7/0SGryWeNITnjuLebOKmmg4p1/zOjoZPGKgbq+MOoehnHxYVh8jqauiCdvSdVAYXTSx975+Re3IDr9uehcIvT7KANfh1H7IIS6vnVcHYoWLABNA6e18xuKRKe+SHQuy9GhxV98EBINXOgN4cJXvPjc4TlaBtjJtJAfHeYUdn6OfqTg4l5S6MvRUejXiuJDeOdLXmzyOXl79dao+j93GV+6i/WmhTey86no6EpEp7Y3R18xQLq2N7Srs0bvqxqoVrWqVa1q/e/qP3Oau9vfx/VtAAAAAElFTkSuQmCC"><a
-                    href="ecell@cit.ac.in"> ecell@cit.ac.in</a> </p> <br>
-            <p><img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADGUlEQVR4nO2aS0hVURSG/8pepDWM7AFFBZk1CdTuXeucHko2qAbRpGkkiaLUJCcNgmjeoIggEGleNGkShRSRSJNUGkVBZVH0VkrF/tjn3m5iaXuf1z1CCxZcLpd//9866yz22ecC/6MQVKyloIWKHgoeUfCOggkqxql4S0U/Bd1UHGMO1chKUNBMxV0qJqmgZZrf3qagsbzGBX0Opv+eggepgrARKyi4Ftn4nyDdzKEqWfMeNlHwJHbzWsoh+tiYlPltFLxJ0DyLV2KYHrbEaz6HagpeJG5eS/mKPtbEY34HFgYjMD3zLOZD+qiIDqA4WwbzLOaZaObzWEfBN8cefkwPncxjK5uwLEjz2XwnGHAEGGUDVkep/kUH498paCUwf0a9I1hARRsVYw4QF8KZz6GKii/W5j3sdijMHmsIwSdzFd0BFIcdqnQihH67g/4hdwDBZeuen6Vt/tFOg5YAl8IA2O1zBB3O4r/XOGkJcN9dvLAFtgGoCQ3go9Zyjdfu4ubGtBH3URkaIBcMCqsh4S5uZrCNeIQdJOuw3BLgq7u44FlmWkjxNAxAr5W4h87Eb2LBnTDi5y3FB8xIDDlGhyyvwDl3gDz2W4qbbHPWF3Q46O9zB2jGYio+WC4wRsFeB/ONxdMKWuR71mCRM0CwkOKKQ5XM3qZ9tnYK2qZQeVvzNDuCUOaLlap3APiVg8HNaSaMj8pi1lJwyqHnOSXrQgMEEIp7IRaNJwW9kcwHAB4Olg0gjwORAQIIc/iUfvX7CMyLB0DhpQ7g2T8g2UEIbqQIcD1W81Me8EdSMD9KxfrYAQIIRVcKvX86EfMBgI+KhG/ofnOQlhhAACHYYH1a4Vb5EQo2J2p+CkRLAgDHUzFfglDcjBHgVmwz3xqgHiuDo/DolR82WqmaL0F42Ol4TDg9x+lBy2K+BFE46wxb/VZkIai4GgKgB1kJNmCp40uQfvpYgiwFFauoeG5h/mVsr4/iDnNGRMHHWcx/pmA7shzMY9cMk8lMnCbMhaCHo9P+ejBpvsNcCprXTQXzP8K8AEEWorj97kpykZ+xubp/rAMA/QAAAABJRU5ErkJggg=="><a
-                    href="https://maps.app.goo.gl/P7fJWA84zRoDdpwa9" target="_blank"> Click here</a></p>
-        </div>
-        <div class="design">
-            designed with by <span style="color: #065299;">Subhrajit</span>
-        </div>
+            <div class="social">
+                <!-- <h6>Follow us </h6>  -->
+                <a
+                    href="https://www.instagram.com/ecell_citk?igsh=MXE3dXR5Ym8wbzRmbA=="
+                    target="_blank"
+                    ><img
+                        width="40"
+                        height="40"
+                        src="https://img.icons8.com/fluency/48/instagram-new.png"
+                        alt="instagram-new"
+                /></a>
 
-        <div class="social">
-            <!-- <h6>Follow us </h6>  -->
-            <a href="https://www.instagram.com/ecell_citk?igsh=MXE3dXR5Ym8wbzRmbA==" target="_blank"><img width="40"
-                    height="40" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new" /></a>
+                <a
+                    href="https://www.linkedin.com/company/e-cell-citk/"
+                    target="_blank"
+                    ><img
+                        width="40"
+                        height="40"
+                        src="https://img.icons8.com/color/48/linkedin.png"
+                        alt="linkedin"
+                /></a>
 
-            <a href="https://www.linkedin.com/company/e-cell-citk/" target="_blank"><img width="40" height="40"
-                    src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin" /></a>
-
-            <a href="#"><img width="40" height="40" src="https://img.icons8.com/color/48/twitterx--v1.png"
-                    alt="twitterx--v1" /></a>
-            <!-- <img class="icons" src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-3/128/twitter-icon.png">
+                <a href="#"
+                    ><img
+                        width="40"
+                        height="40"
+                        src="https://img.icons8.com/color/48/twitterx--v1.png"
+                        alt="twitterx--v1"
+                /></a>
+                <!-- <img class="icons" src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-3/128/twitter-icon.png">
           <img class="icons" src="https://www.stackbuilders.com/assets/img/github-icon-hover.png">
           <img class="icons" style="filter: invert(100%)" src="https://www.iconninja.com/files/625/765/244/social-media-stackoverflow-icon.png"> -->
-
+            </div>
         </div>
 
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-
-
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
