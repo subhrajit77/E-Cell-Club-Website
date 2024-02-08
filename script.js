@@ -2,7 +2,6 @@ window.addEventListener('scroll', function () {
   const navbar = document.getElementById('navbar');
   if (window.scrollY > 100) {
     navbar.classList.add('scrolled');
-    console.log('scrolled');
   } else {
     navbar.classList.remove('scrolled');
   }
@@ -15,8 +14,6 @@ window.addEventListener('scroll', function () {
   let scrollPosition = window.scrollY;
   lottiePlayer.style.transform = `translateY(-${scrollPosition}px)`;
 });
-
-
 
 
 //   scroll down animation
@@ -71,10 +68,7 @@ function updateQuote() {
 
 // Update the quote immediately, then every 10 seconds
 updateQuote();
-setInterval(updateQuote, 10000);
-
-
-
+setInterval(updateQuote, 300_000);
 
 
 // welcome container
