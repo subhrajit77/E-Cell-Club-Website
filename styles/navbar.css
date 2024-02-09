@@ -15,6 +15,7 @@
 
 nav img {
     width: 65px;
+    border-radius: 0px;
 }
 .nav-links ul {
     width: 100%;
