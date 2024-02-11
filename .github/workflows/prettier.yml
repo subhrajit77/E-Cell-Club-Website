@@ -24,4 +24,5 @@ jobs:
           # prettier_options: --write **/*.{js,md}
           only_changed: True
           dry: True
+          file_pattern: "*.{html,css}"
           # working_directory: .
