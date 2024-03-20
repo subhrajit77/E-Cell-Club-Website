@@ -7,11 +7,11 @@
     background-color: rgba(0, 0, 0, 0.336);
     color: white;
     display: grid;
-    grid-template-columns: 2fr 0.9fr 0.7fr 0.2fr 1.2fr;
-    grid-template-rows: 1.9fr 0.1fr;
+    grid-template-columns: 2fr 1fr 1fr 0.2fr 1.2fr;
+    grid-template-rows: 2fr 0.1fr;
     grid-template-areas:
-        "logo product resource resource business"
-        "social social . design design";
+        "logo links initiatives . contact"
+        "social . . design design";
     padding: 25px 1px;
 }
 
@@ -60,7 +60,7 @@ li {
 }
 
 .Links {
-    /* grid-area: links; */
+    grid-area: links;
     color: #eef5fc;
 }
 .Links .ul {
@@ -81,21 +81,20 @@ li {
 .Links a:hover {
     color: #e25e06 !important;
     text-decoration: none;
-    font-size: medium;
+    /* font-size: medium; */
 }
 
 .initiatives {
-    /* grid-area: initiative; */
+    grid-area: initiatives;
 }
 .initiatives a {
-    /* grid-area: initiative; */
     text-decoration: none;
     color: #cacec3 !important;
 }
 .initiatives a:hover {
     color: #e25e06 !important;
     text-decoration: none;
-    font-size: medium;
+    /* font-size: medium; */
 }
 
 .contact {
@@ -103,8 +102,6 @@ li {
     max-height: 12rem;
     width: 200px;
     grid-area: contact;
-    margin-top: -18rem;
-    margin-right: 3rem;
     padding: 10px 0px;
     /* padding-right: .2rem; */
 }
@@ -181,6 +178,8 @@ li {
     text-align: right;
     padding-right: 0.3rem;
     padding-bottom: 0.3rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
 }
 
 .icons {
