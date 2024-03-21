@@ -3,7 +3,6 @@
     position: relative;
     font-family: sans-serif;
     height: 20%;
-    /* border: 2px solid yellow; */
     background-color: rgba(0, 0, 0, 0.336);
     color: white;
     display: grid;
@@ -14,7 +13,12 @@
         "social . . design design";
     padding: 25px 1px;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+}
 li {
     list-style: none;
     padding-top: 2%;
@@ -186,4 +190,74 @@ li {
     width: 1rem;
     height: 1rem;
     padding-left: 0.3rem;
+}
+
+/* footer for mobile devices */
+
+@media (max-width: 480px) {
+    #footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1.2fr 1fr 0.3fr;
+        grid-template-areas:
+            "logo logo"
+            "links initiatives"
+            "contact social"
+            "design design";
+    }
+    .logo {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        width: 100%;
+        overflow: visible;
+    }
+    .logo .img {
+        max-width: 100px;
+    }
+    .logo h4 {
+        font-size: medium;
+    }
+    .social {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .design {
+        text-align: center;
+    }
+    ul.links {
+        display: none;
+        max-width: 100%;
+        padding: 0;
+    }
+    .contact {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .initiatives a {
+        font-size: 0.8rem;
+        height: 50px;
+        line-height: 1;
+    }
+    .initiatives {
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .contact {
+        padding: 0;
+        height: 10px;
+    }
+    .contact h6 {
+        text-align: left;
+        font-size: 15px;
+    }
+    .contact p img {
+        width: 20px;
+        height: 20px;
+    }
+    .contact p {
+        font-size: 0.8rem;
+    }
 }

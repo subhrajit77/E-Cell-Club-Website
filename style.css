@@ -170,17 +170,6 @@ body {
         font-size: 40px;
     }
 
-    .nav-links {
-        /* text-align: right; */
-        /* z-index: 2; */
-    }
-    /* Initially hide off-screen */
-    /* Use right property for the transition */
-
-    /* .nav-links ul li {
-        display: block;
-    } */
-
     .text-box p {
         font-size: 16px;
     }
