@@ -7,13 +7,13 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     /* border: 1px solid rgba(23, 146, 202, 0.623); */
-    box-shadow: 0px 0px 2px 1px blueviolet;
 }
 body {
     background-image: radial-gradient(#0c0000, #080018);
     background-repeat: no-repeat;
     max-height: max-content;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 .header {
@@ -30,9 +30,8 @@ body {
     display: flex;
     height: 110vh; /* Full height of the viewport */
     max-width: 60%;
-    /* border: 2px solid red; */
 }
-.left-section,
+
 .right-section {
     flex: 1;
     padding: 20px;
@@ -41,15 +40,10 @@ body {
 
 .left-section {
     flex: 2; /* Takes 50% of the width */
-    /* Adjust background color as needed */
-    /* background-color: pink; */
-    color: #fff; /* Adjust text color as needed */
-    /* border: 1px solid pink; */
     padding: 35px;
     box-sizing: border-box;
 }
 .text {
-    /* border: 1px solid red; */
     margin: 5px 10px;
     padding: 35px 0px;
 }
@@ -89,29 +83,8 @@ body {
     margin: 40px 0 40px;
     font-size: 18px;
     color: #fff;
-    /* border: 1px solid green; */
 }
-.text button {
-    margin: 40px 0 40px;
-    font-size: 18px;
-    color: #fffffff1;
-    background-color: rgba(23, 146, 202, 0.623);
-    padding: 6px 16px;
-    font-family: "Roboto", sans-serif;
-    border-radius: 11px;
-    cursor: pointer;
-}
-.text button:hover {
-    margin: 40px 0 40px;
-    font-size: 18px;
-    color: #fffffff1;
-    background-color: rgba(255, 72, 0, 0.925);
-    padding: 6px 16px;
-    font-family: "Roboto", sans-serif;
-    border-radius: 11px;
-    cursor: pointer;
-    animation: shake 0.8s infinite ease-in-out;
-}
+
 @keyframes shake {
     0%,
     100% {
@@ -137,14 +110,8 @@ body {
 
 .right-section {
     flex: 1; /* Takes 50% of the width */
-    /* Adjust background color as needed */
-    color: #fff; /* Adjust text color as needed */
-    /* background-color: brown; */
     padding: 20px;
-    /* border: 1px solid green; */
     box-sizing: border-box;
-    text-align: right;
-    /* border: 2px solid white; */
 }
 .right-section img {
     border: 1px solid white;
@@ -155,38 +122,41 @@ body {
     transition: transform 0.5s;
 }
 
-/* .text-box {
-    width: 90%;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-} */
-
-@media (max-width: 700px) {
-    .text-box h1 {
-        font-size: 40px;
+@media (max-width: 500px) {
+    .header {
+        min-height: 0;
+        height: 30rem;
+        background-color: brown;
     }
-
-    .text-box p {
-        font-size: 16px;
+    .container {
+        margin-left: 10px;
     }
-
-    .text-box button {
-        font-size: 14px;
+    .text {
+        margin-left: 10px;
+    }
+    .animate-character {
+        margin-left: 20px;
+        font-size: 36px;
+    }
+    .left-section {
+        padding: 0px;
+        margin: 0;
+    }
+    .right-section {
+        display: none;
     }
 }
 
 /* Welcome box part */
 .welcome-container {
+    width: 100vw;
     background-image: radial-gradient(#0c0000, #080018);
 }
 .welcome-box {
     display: flex;
-    height: 33vh; /* Full height of the viewport */
-    max-width: 50%;
+    height: 33vh;
+    /* Full height of the viewport */
+    /* max-width: 50%; */
     /* border: 2px solid red; */
     margin-left: 20%;
     margin-top: -5%;
@@ -195,16 +165,12 @@ body {
 
 .welcome-box h1 {
     font-family: "Montserrat", sans-serif;
-
     font-weight: 700;
     font-stretch: expanded;
     color: aliceblue;
-
-    /* animation:  */
 }
 .first-line {
     animation: slideIn 0.3s ease-out;
-    /* border: 1px solid green; */
     font-size: 35px;
     font-style: italic;
 }
@@ -260,15 +226,36 @@ body {
 .welcome-text {
     color: white;
     font-size: 27px;
-
-    /* border: 1px solid white; */
     margin-left: 400px;
     margin-top: 10px;
     padding: 1px 30px;
     height: 50vh;
 }
 
-
+@media (max-width: 500px) {
+    .welcome-box {
+        margin-left: 20px;
+    }
+    .welcome-text {
+        width: 200px;
+        padding: 0;
+        height: auto;
+        margin-left: 100px;
+    }
+    .welcome-text p {
+        font-size: 20px;
+    }
+    
+    .welcome-box {
+        .first-line {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .second-line {
+            font-size: 30px;
+        }
+    }
+}
 /* Quote section  */
 
 .blockquote-wrapper {
