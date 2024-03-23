@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     /* border: 1px solid rgba(23, 146, 202, 0.623); */
+    box-shadow: 0px 0px 2px 1px blueviolet;
 }
 body {
     background-image: radial-gradient(#0c0000, #080018);
@@ -179,7 +180,6 @@ body {
     }
 }
 
-/* menu icon */
 /* Welcome box part */
 .welcome-container {
     background-image: radial-gradient(#0c0000, #080018);
@@ -269,57 +269,6 @@ body {
     height: 50vh;
 }
 
-/* whats latest */
-
-.carousel-item {
-    height: 500px;
-    background-image: radial-gradient(#0c0000, #080018);
-}
-
-.carousel-item img {
-    display: block;
-    height: 50%;
-    margin-top: 40px;
-    margin-left: 1px;
-
-    object-fit: contain;
-    /* border: 2px solid pink; */
-}
-
-.carousel-caption {
-    /* border: 2px solid greenyellow; */
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    filter: invert(10%);
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 3rem;
-    height: 3rem;
-    outline: rgb(0, 0, 0) auto 1px;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    /* border: 2px solid black; */
-    background-image: none;
-}
-
-.carousel-control-prev-icon:after {
-    content: " ";
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
-
-.carousel-control-next-icon:after {
-    content: " ";
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
 
 /* Quote section  */
 
