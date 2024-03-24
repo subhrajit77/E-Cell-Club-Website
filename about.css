@@ -11,7 +11,6 @@ body {
     background-image: radial-gradient(#0c0000, #080018);
     background-repeat: no-repeat;
     max-height: max-content;
-    /* border: 2px solid yellow; */
 }
 
 /* ---About intro----- */
@@ -21,7 +20,6 @@ body {
     padding: 20px;
     background-image: radial-gradient(#0c0000, #080018);
     background-repeat: no-repeat;
-    /* border: 2px solid #e25e06; */
 }
 
 .intro-text {
@@ -33,13 +31,11 @@ body {
     margin-left: 10px;
     /* margin: 10px 50px; */
     padding: 80px 0px;
-    /* border: 2px solid #e6ff06;; */
 }
 
 .intro-text h1 {
     font-size: 4em;
     color: #e64716;
-    /* border: 2px solid green; */
     text-align: center;
     margin: 60px 170px;
     width: 250px;
@@ -52,7 +48,6 @@ body {
     margin-right: 40px;
     font-size: 1.5em;
     color: #d4cdcd;
-    /* border: 2px solid #e6ff06; */
     text-align: center;
 }
 
@@ -166,27 +161,12 @@ body {
     }
 }
 
-.bg-green-box,
-.bg-white-box,
-.bg-yellow-box,
-.bg-blue-box {
-    position: relative;
-}
-
-.bg-green-box::after,
-.bg-white-box::after,
-.bg-yellow-box::after,
-.bg-blue-box::after {
-    position: absolute;
-    top: -1px;
-    bottom: -1px;
-    left: -1px;
-    right: -1px;
+.container-card::after {
     content: "";
+    position: absolute;
     z-index: -1;
     border-radius: 45px;
 }
-
 .bg-green-box::after {
     background: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
 }
@@ -224,10 +204,8 @@ body {
 /* Club activities and programs section */
 
 .activity-container {
-    /* border: 2px solid blue */
 }
 .activity-container .heading {
-    /* border: 2px solid rgb(20, 219, 233); */
     color: white;
     font-size: 40px;
     font-weight: 600;
@@ -279,36 +257,13 @@ body {
 .card-circle:nth-child(2) {
     background: #000818f6;
 }
-.card-circle .btn {
-    font-family: Montserrat;
-    background: transparent;
-    border: 1px solid #fff;
-    text-transform: uppercase;
-    padding: 5px 30px;
-    border-radius: 0px;
-    font-weight: 600;
-}
-.card-circle .btn,
+
 .card-circle .card-icon i,
 .card-circle {
     transition: all ease-in-out 0.2s;
 }
-.card-circle:hover .btn {
-    background: #00a8cc;
-    color: #fff;
-    border: 1px solid transparent;
-}
-
-.card-circle:hover .btn {
-    background: #00a8cc;
-    color: #fff;
-    border: 1px solid transparent;
-}
-.card-circle .btn:hover {
-    transform: scale(1.1);
-}
 .card-circle:hover {
-    border: 10px solid #00a8cc;
+    /* border: 10px solid #00a8cc; */
 }
 .card-circle:hover i {
     text-shadow: 0px -1px 10px #00a8cc;
@@ -328,6 +283,7 @@ body {
         box-shadow: 1px 2px 20px 8px rgba(241, 235, 235, 0.12);
         transform: scale(1.2);
         z-index: 1;
+        animation: box-shadow 100ms 0ms ;
     }
     .card-circle .card-icon i {
         margin-top: 20px;
