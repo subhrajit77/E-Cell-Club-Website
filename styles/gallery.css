@@ -7,11 +7,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
 }
 body {
     background-image: radial-gradient(#0c0000, #080018);
     background-repeat: no-repeat;
     max-height: max-content;
+    overflow-x: hidden;
     /* border: 2px solid yellow; */
 }
 
@@ -47,8 +49,8 @@ body {
 }
 
 .gallery-image img {
-    height: 320px;
-    width: 405px;
+    height: 335px;
+    width: 415px;
     transform: scale(1);
     transition: transform 0.4s ease;
 }
@@ -56,7 +58,7 @@ body {
 .img-box {
     box-sizing: content-box;
     margin: 10px;
-    height: 320px;
+    height: 335px;
     width: 550px;
     width: calc((100% / 3) - 30px);
     border-radius: 15px;
@@ -109,3 +111,6 @@ body {
 .opacity-low {
     opacity: 0.5;
 }
+
+/* CSS for screens up to 479px */
+
