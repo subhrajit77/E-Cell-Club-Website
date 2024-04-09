@@ -1,538 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Our Team</title>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="/styles/team.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm ms-5" id="navbar">
+      <div class="navbar-brand">
+        <img
+          src="/images/logo2.png"
+          alt="Club Logo"
+          class="d-inline-block"
+          id="icon"
         />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            defer
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-            defer
-        ></script>
-        <link rel="stylesheet" href="/styles/team.css" />
-        <link rel="stylesheet" href="/styles/navbar.css" />
-        <link rel="stylesheet" href="/styles/footer.css" />
-    </head>
-
-    <body>
-        <nav class="navbar navbar-expand-sm ms-5" id="navbar">
-            <div class="navbar-brand">
-                <img
-                    src="/images/logo2.png"
-                    alt="Club Logo"
-                    class="d-inline-block"
-                    id="icon"
-                />
+      </div>
+      <button
+        class="navbar-toggler d-lg-none bg-primary"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navLinks"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="nav-links collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="./about.html">About</a></li>
+          <li class="nav-item">
+            <a href="./events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="./team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="./gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item"><a href="#reach-us">Reach us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- team card section -->
+    <section class="team">
+      <h2>Meet our <span id="team"> Team </span></h2>
+      <p>
+        Our dedicated team of mentors and youths are passionate about bringing
+        ideas to life and driving success in every project we undertake.
+      </p>
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Faculty Advisors</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="team-item">
+            <img
+              src="/assets/member images/Faculty/Pranav sir new.jpg"
+              alt="team"
+            />
+            <h4>
+              Dr. Pranav Kumar Singh
+              <span>Associate Professor, Dean(AER)</span><span></span>
+            </h4>
+            <div class="social-links">
+              <a href="pranavsir@example.com"><i class="fa fa-envelope"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
             </div>
-            <button
-                class="navbar-toggler d-lg-none bg-primary"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navLinks"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="nav-links collapse navbar-collapse" id="navLinks">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="./about.html">About</a></li>
-                    <li class="nav-item">
-                        <a href="./events.html">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./team.html">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item"><a href="#reach-us">Reach us</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- team card section -->
-        <section class="team">
-            <h2>Meet our <span id="team"> Team </span></h2>
-            <p>
-                Our dedicated team of mentors and youths are passionate about
-                bringing ideas to life and driving success in every project we
-                undertake.
-            </p>
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>Faculty Advisors</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="team-item">
-                        <img
-                            src="/assets/member images/Faculty/Pranav sir new.jpg"
-                            alt="team"
-                        />
-                        <h4>
-                            Dr. Pranav Kumar Singh
-                            <span>Associate Professor, Dean(AER)</span
-                            ><span></span>
-                        </h4>
-                        <div class="social-links">
-                            <a href="pranavsir@example.com"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-item">
-                        <img
-                            src="/assets/member images/Faculty/Dipen Sir.jpg"
-                            alt="team"
-                        />
-                        <h4>
-                            Dr. Dipen Deka<span>Assistant Professor</span
-                            ><span></span>
-                        </h4>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+          </div>
+          <div class="team-item">
+            <img src="/assets/member images/Faculty/Dipen Sir.jpg" alt="team" />
+            <h4>Dr. Dipen Deka<span>Assistant Professor</span><span></span></h4>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a> -->
-                            <a href="Dipensir@example.com"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-item">
-                        <img
-                            src="/assets/member images/Faculty/Gunajit sir.jpg"
-                            alt="team"
-                        />
-                        <h4>
-                            Dr. Gunajit Sarma<span>Associate Professor</span
-                            ><span></span>
-                        </h4>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="Dipensir@example.com"><i class="fa fa-envelope"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="team-item">
+            <img
+              src="/assets/member images/Faculty/Gunajit sir.jpg"
+              alt="team"
+            />
+            <h4>
+              Dr. Gunajit Sarma<span>Associate Professor</span><span></span>
+            </h4>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a> -->
-                            <a href="gunajitsir@example.com"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-item">
-                        <img
-                            src="/assets/member images/Faculty/Kaushik sir neww.jpg"
-                            alt="team"
-                        />
-                        <h4>
-                            Dr. Kaushik Ch Deva Sarma<span
-                                >Assistant Professor</span
-                            ><span></span>
-                        </h4>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="gunajitsir@example.com"
+                ><i class="fa fa-envelope"></i
+              ></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="team-item">
+            <img
+              src="/assets/member images/Faculty/Kaushik sir neww.jpg"
+              alt="team"
+            />
+            <h4>
+              Dr. Kaushik Ch Deva Sarma<span>Assistant Professor</span
+              ><span></span>
+            </h4>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a> -->
-                            <a href="kaushiksir@example.com"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <!-- <div class="team-item">
-                    <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
-                    <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-
-                </div> -->
-                    <!-- <div class="team-item">
-                    <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
-                    <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-
-                </div> -->
-                </div>
+              <a href="kaushiksir@example.com"
+                ><i class="fa fa-envelope"></i
+              ></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
             </div>
-
-            <!-- core team -->
-            <div class="container-core">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>Core Team</h2>
-                    </div>
-                </div>
-                <div class="row-core">
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Arnab Sashi.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Arnab Sashi<span>Chief Convenor</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a
-                                href="https://www.linkedin.com/in/arnab-sashi-393482265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                target="_blank"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a
-                                href="https://www.instagram.com/arnabsashi?igsh=dTQxMDNoa2Vlbnp2"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Chandramallika Das.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Chandramallika Das<span>Advisor</span
-                            ><span>B.Tech 4th year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a
-                                href="https://www.linkedin.com/in/chandramallika-das?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                target="_blank"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a
-                                href="https://www.instagram.com/sara19_2.0?igsh=YzVkODRmOTdmMw=="
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Soumik dutta.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Soumik Dutta Choudhary<span>Convenor</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Nayanmoni.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Nayanmani Mashahary<span>Convenor</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Anabill Khatriya.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Anabill Khatriya<span>Event Manager</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a
-                                href="https://www.instagram.com/khatriya__?igsh=ejZoMjR0bGduOGZ2"
-                                target="_blank"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Harsh choudhury.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Harsh Kumar Choudhary<span>Event Manager</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a
-                                href="https://www.linkedin.com/in/harsh-kumar-choudhary-1a2565265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                target="_blank"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Bishal Karmakar.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Bishal Karmakar<span>Technical Coordinator</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#" target="_blank"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-twitter"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                            <a href="#" target="_blank"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Prachi Sharma.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Prachi Sharma<span>Coordinator</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a href="https://www.instagram.com/prachi__sh_/"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/kumar kush singh.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Kumar Kush Singh<span>Coordinator</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a
-                                href="https://www.instagram.com/singhkumarkush?igsh=aTFmOGlueXdoYzFw"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Bibek Bayan.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Bibek Bayan<span>Coordinator</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a
-                                href="https://www.instagram.com/_._.bibek_._?igsh=MzRlODBiNWFlZA=="
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Himraj Doley.png"
-                            alt="team"
-                        />
-                        <h3>
-                            Himraj Doley<span>Coordinator</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Pooja Priya Brahma.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Pooja Priya Brahma<span>Coordinator</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Mriganav Baishya.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Mriganav Baishya<span>Coordinator</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a
-                                href="https://www.linkedin.com/in/mriganav-baishya-5a628924b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a
-                                href="https://www.instagram.com/mriganav_baishya?igsh=MWN6OXMweWp4N3A4Yw=="
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Shivanjali Borgoyary.png"
-                            alt="team"
-                        />
-                        <h3>
-                            Shivanjali Borgoyary<span>Social media manager</span
-                            ><span>B.Tech 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a href="https://www.instagram.com/xoxo.chibi.ya/"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Nilotpal Sarkar.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Nilotpal Sarkar<span>Design Head</span
-                            ><span>B.Des 1st year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a
-                                href="https://www.linkedin.com/in/nilotpal-sarkar-16a732203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a
-                                href="https://www.instagram.com/aritra.jpg?igsh=aXd4djYxbXg4cDJw"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Diganta Sen.jpeg"
-                            alt="team"
-                        />
-                        <h3>
-                            Diganta Sen<span>Design Coordinator</span
-                            ><span>B.Des 1st year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a
-                                href="https://www.instagram.com/digantasenn?igsh=MXBtcGZleWQ3bWhiOA%3D%3D&utm_source=qr"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="coreteam-item">
-                        <img
-                            src="/assets/member images/Ajit singh.jpg"
-                            alt="team"
-                        />
-                        <h3>
-                            Ajit Singh<span>Design Coordinator</span
-                            ><span>B.Des 1st year</span>
-                        </h3>
-                        <div class="social-links">
-                            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                            <a
-                                href="https://www.linkedin.com/in/ajit-singh-540810282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                            <a href="https://www.instagram.com/ajjaayyyyyy._/"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <!-- <div class="team-item">
+          </div>
+          <!-- <div class="team-item">
                     <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
                     <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
                     <div class="social-links">
@@ -543,7 +144,7 @@
                     </div>
 
                 </div> -->
-                    <!-- <div class="team-item">
+          <!-- <div class="team-item">
                     <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
                     <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
                     <div class="social-links">
@@ -554,193 +155,492 @@
                     </div>
 
                 </div> -->
-                </div>
+        </div>
+      </div>
+
+      <!-- core team -->
+      <div class="container-core">
+        <div class="row">
+          <div class="section-title">
+            <h2>Core Team</h2>
+          </div>
+        </div>
+        <div class="row-core">
+          <div class="coreteam-item">
+            <img src="/assets/member images/Arnab Sashi.jpg" alt="team" />
+            <h3>
+              Arnab Sashi<span>Chief Convenor</span><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a
+                href="https://www.linkedin.com/in/arnab-sashi-393482265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a
+                href="https://www.instagram.com/arnabsashi?igsh=dTQxMDNoa2Vlbnp2" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
             </div>
-            <!-- Web dev section -->
-
-            <div class="container-web">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>Web-Development Team</h2>
-                    </div>
-                </div>
-                <div class="row-web">
-                    <div class="webteam-item">
-                        <img
-                            src="/assets/member images/Subhrajit.jpeg"
-                            alt="team"
-                        />
-                        <h3>
-                            Subhrajit Talukdar<span>Web-Developer</span
-                            ><span>B.Tech | 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <a
-                                href="https://www.linkedin.com/in/subhrajit-talukdar-0ab10925a/"
-                                target="_blank"
-                                ><i class="fa fa-linkedin"></i
-                            ></a>
-                            <a
-                                href="mailto: subhrajittalukdar411@gmail.com"
-                                target="_blank"
-                                ><i class="fa fa-envelope"></i
-                            ></a>
-                            <a
-                                href="https://www.instagram.com/captain__valentino/"
-                                target="_blank"
-                                ><i class="fa fa-instagram"></i
-                            ></a>
-                            <a
-                                href="https://twitter.com/subhrajitt7"
-                                target="_blank"
-                                ><i class="fa fa-twitter"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="webteam-item">
-                        <img
-                            src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png"
-                            alt="team"
-                        />
-                        <h3>
-                            Your name <span>Convenor</span
-                            ><span>B.Tech | 2nd year</span>
-                        </h3>
-                        <div class="social-links">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- <div class="team-item">
-                    <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
-                    <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-
-                </div> -->
-                    <!-- <div class="team-item">
-                    <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
-                    <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-
-                </div> -->
-                </div>
+          </div>
+          <div class="coreteam-item">
+            <img
+              src="/assets/member images/Chandramallika Das.jpg"
+              alt="team"
+            />
+            <h3>
+              Chandramallika Das<span>Advisor</span><span>B.Tech 4th year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a
+                href="https://www.linkedin.com/in/chandramallika-das?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a
+                href="https://www.instagram.com/sara19_2.0?igsh=YzVkODRmOTdmMw==" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
             </div>
-        </section>
-        <!-- <div class="credit">Made with <span style="color:black;font-size:20px;">❤</span> by <a
+          </div>
+
+          <div class="coreteam-item">
+            <img src="/assets/member images/Soumik dutta.jpg" alt="team" />
+            <h3>
+              Soumik Dutta Choudhary<span>Convenor</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Nayanmoni.jpg" alt="team" />
+            <h3>
+              Nayanmani Mashahary<span>Convenor</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Anabill Khatriya.jpg" alt="team" />
+            <h3>
+              Anabill Khatriya<span>Event Manager</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+              <a
+                href="https://www.instagram.com/khatriya__?igsh=ejZoMjR0bGduOGZ2"
+                target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Harsh choudhury.jpg" alt="team" />
+            <h3>
+              Harsh Kumar Choudhary<span>Event Manager</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a
+                href="https://www.linkedin.com/in/harsh-kumar-choudhary-1a2565265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Bishal Karmakar.jpg" alt="team" />
+            <h3>
+              Bishal Karmakar<span>Technical Coordinator</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#" target="_blank"><i class="fa fa-facebook"></i></a> -->
+              <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Prachi Sharma.jpg" alt="team" />
+            <h3>
+              Prachi Sharma<span>Coordinator</span><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.instagram.com/prachi__sh_/" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/kumar kush singh.jpg" alt="team" />
+            <h3>
+              Kumar Kush Singh<span>Coordinator</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a
+                href="https://www.instagram.com/singhkumarkush?igsh=aTFmOGlueXdoYzFw" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Bibek Bayan.jpg" alt="team" />
+            <h3>
+              Bibek Bayan<span>Coordinator</span><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a
+                href="https://www.instagram.com/_._.bibek_._?igsh=MzRlODBiNWFlZA==" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Himraj Doley.png" alt="team" />
+            <h3>
+              Himraj Doley<span>Coordinator</span><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img
+              src="/assets/member images/Pooja Priya Brahma.jpg"
+              alt="team"
+            />
+            <h3>
+              Pooja Priya Brahma<span>Coordinator</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Mriganav Baishya.jpg" alt="team" />
+            <h3>
+              Mriganav Baishya<span>Coordinator</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a
+                href="https://www.linkedin.com/in/mriganav-baishya-5a628924b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a
+                href="https://www.instagram.com/mriganav_baishya?igsh=MWN6OXMweWp4N3A4Yw==" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="coreteam-item">
+            <img
+              src="/assets/member images/Shivanjali Borgoyary.png"
+              alt="team"
+            />
+            <h3>
+              Shivanjali Borgoyary<span>Social media manager</span
+              ><span>B.Tech 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.instagram.com/xoxo.chibi.ya/" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Nilotpal Sarkar.jpg" alt="team" />
+            <h3>
+              Nilotpal Sarkar<span>Design Head</span><span>B.Des 1st year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a
+                href="https://www.linkedin.com/in/nilotpal-sarkar-16a732203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a
+                href="https://www.instagram.com/aritra.jpg?igsh=aXd4djYxbXg4cDJw" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Diganta Sen.jpeg" alt="team" />
+            <h3>
+              Diganta Sen<span>Design Coordinator</span
+              ><span>B.Des 1st year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+              <a
+                href="https://www.instagram.com/digantasenn?igsh=MXBtcGZleWQ3bWhiOA%3D%3D&utm_source=qr" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="coreteam-item">
+            <img src="/assets/member images/Ajit singh.jpg" alt="team" />
+            <h3>
+              Ajit Singh<span>Design Coordinator</span
+              ><span>B.Des 1st year</span>
+            </h3>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+              <a
+                href="https://www.linkedin.com/in/ajit-singh-540810282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.instagram.com/ajjaayyyyyy._/" target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <!-- <div class="team-item">
+                    <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
+                    <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+
+                </div> -->
+          <!-- <div class="team-item">
+                    <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
+                    <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+
+                </div> -->
+        </div>
+      </div>
+      <!-- Web dev section -->
+
+      <div class="container-web">
+        <div class="row">
+          <div class="section-title">
+            <h2>Web-Development Team</h2>
+          </div>
+        </div>
+        <div class="row-web">
+          <div class="webteam-item">
+            <img src="/assets/member images/Subhrajit.jpeg" alt="team" />
+            <h3>
+              Subhrajit Talukdar<span>Web-Developer</span
+              ><span>B.Tech | 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/subhrajit-talukdar-0ab10925a/"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="mailto: subhrajittalukdar411@gmail.com" target="_blank"
+                ><i class="fa fa-envelope"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/captain__valentino/"
+                target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/subhrajitt7" target="_blank"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <div class="webteam-item">
+            <img
+              src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png"
+              alt="team"
+            />
+            <h3>
+              Your name <span>Convenor</span><span>B.Tech | 2nd year</span>
+            </h3>
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <!-- <div class="team-item">
+                    <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
+                    <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+
+                </div> -->
+          <!-- <div class="team-item">
+                    <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt="team">
+                    <h3>Your name <span>Convenor</span><span>B.Tech 2nd year</span></h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+
+                </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- <div class="credit">Made with <span style="color:black;font-size:20px;">❤</span> by <a
             href="https://www.learningrobo.com/">Learning Robo</a></div> -->
 
-        <div id="footer">
-            <div class="logo">
-                <div class="flex">
-                    <img class="img" src="/images/logo2.png" />
-                    <h4>E-Cell CIT Kokrajhar</h4>
-                </div>
+    <div id="footer">
+      <div class="logo">
+        <div class="flex">
+          <img class="img" src="/images/logo2.png" />
+          <h4>E-Cell CIT Kokrajhar</h4>
+        </div>
 
-                <div class="copy">
-                    &#169; Enterpreneurship Development Club - All Rights
-                    Reserved
-                </div>
-            </div>
-            <ul class="Links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/public/events.html">Events</a></li>
-                <li><a href="/public/team.html">Team</a></li>
-                <li><a href="/public/gallery.html">Gallery</a></li>
-            </ul>
-            <ul class="initiatives">
-                <li><b>Useful Links</b></li>
-                <li>
-                    <a href="https://cit.ac.in/" target="_blank"
-                        >CIT Kokrajhar</a
-                    >
-                </li>
-                <li>
-                    <a href="http://centrallibrary.cit.ac.in/" target="_blank"
-                        >Central Library</a
-                    >
-                </li>
-                <li>
-                    <a href="https://placements.cit.ac.in" target="_blank"
-                        >Training and placement cell</a
-                    >
-                </li>
-            </ul>
-            <div class="contact" id="reach-us">
-                <h6>Reach Us</h6>
-                <p>
-                    <img src="https://img.icons8.com/?id=WV326xpsBMyb" />
-                    +91-863-234-5678
-                </p>
-                <br />
-                <p>
-                    <img src="https://img.icons8.com/?id=6BBCqlzE4iKd" /><a
-                        href="ecell@cit.ac.in"
-                    >
-                        ecell@cit.ac.in</a
-                    >
-                </p>
-                <br />
-                <p>
-                    <img src="https://img.icons8.com/?id=13800" /><a
-                        href="https://maps.app.goo.gl/P7fJWA84zRoDdpwa9"
-                        target="_blank"
-                    >
-                        Click here</a
-                    >
-                </p>
-            </div>
-            <div class="design">
-                designed by <span style="color: #065299">Subhrajit</span> and <span style="color: #065299">Abhishek</span>
-            </div>
+        <div class="copy">
+          &#169; Enterpreneurship Development Club - All Rights Reserved
+        </div>
+      </div>
+      <ul class="Links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/public/events.html">Events</a></li>
+        <li><a href="/public/team.html">Team</a></li>
+        <li><a href="/public/gallery.html">Gallery</a></li>
+      </ul>
+      <ul class="initiatives">
+        <li><b>Useful Links</b></li>
+        <li>
+          <a href="https://cit.ac.in/" target="_blank">CIT Kokrajhar</a>
+        </li>
+        <li>
+          <a href="http://centrallibrary.cit.ac.in/" target="_blank"
+            >Central Library</a
+          >
+        </li>
+        <li>
+          <a href="https://placements.cit.ac.in" target="_blank"
+            >Training and placement cell</a
+          >
+        </li>
+      </ul>
+      <div class="contact" id="reach-us">
+        <h6>Reach Us</h6>
+        <p>
+          <img src="https://img.icons8.com/?id=WV326xpsBMyb" />
+          +91-863-234-5678
+        </p>
+        <br />
+        <p>
+          <img src="https://img.icons8.com/?id=6BBCqlzE4iKd" /><a
+            href="ecell@cit.ac.in"
+          >
+            ecell@cit.ac.in</a
+          >
+        </p>
+        <br />
+        <p>
+          <img src="https://img.icons8.com/?id=13800" /><a
+            href="https://maps.app.goo.gl/P7fJWA84zRoDdpwa9"
+            target="_blank"
+          >
+            Click here</a
+          >
+        </p>
+      </div>
+      <div class="design">
+        designed by <span style="color: #065299">Subhrajit</span> and
+        <span style="color: #065299">Abhishek</span>
+      </div>
 
-            <div class="social">
-                <!-- <h6>Follow us </h6>  -->
-                <a
-                    href="https://www.instagram.com/ecell_citk?igsh=MXE3dXR5Ym8wbzRmbA=="
-                    target="_blank"
-                    ><img
-                        width="40"
-                        height="40"
-                        src="https://img.icons8.com/fluency/48/instagram-new.png"
-                        alt="instagram-new"
-                /></a>
+      <div class="social">
+        <!-- <h6>Follow us </h6>  -->
+        <a
+          href="https://www.instagram.com/ecell_citk?igsh=MXE3dXR5Ym8wbzRmbA=="
+          target="_blank"
+          ><img
+            width="40"
+            height="40"
+            src="https://img.icons8.com/fluency/48/instagram-new.png"
+            alt="instagram-new"
+        /></a>
 
-                <a
-                    href="https://www.linkedin.com/company/e-cell-citk/"
-                    target="_blank"
-                    ><img
-                        width="40"
-                        height="40"
-                        src="https://img.icons8.com/color/48/linkedin.png"
-                        alt="linkedin"
-                /></a>
+        <a href="https://www.linkedin.com/company/e-cell-citk/" target="_blank"
+          ><img
+            width="40"
+            height="40"
+            src="https://img.icons8.com/color/48/linkedin.png"
+            alt="linkedin"
+        /></a>
 
-                <a href="#"
-                    ><img
-                        width="40"
-                        height="40"
-                        src="https://img.icons8.com/color/48/twitterx--v1.png"
-                        alt="twitterx--v1"
-                /></a>
-                <!-- <img class="icons" src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-3/128/twitter-icon.png">
+        <a href="#"
+          ><img
+            width="40"
+            height="40"
+            src="https://img.icons8.com/color/48/twitterx--v1.png"
+            alt="twitterx--v1"
+        /></a>
+        <!-- <img class="icons" src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-3/128/twitter-icon.png">
               <img class="icons" src="https://www.stackbuilders.com/assets/img/github-icon-hover.png">
               <img class="icons" style="filter: invert(100%)" src="https://www.iconninja.com/files/625/765/244/social-media-stackoverflow-icon.png"> -->
-            </div>
-        </div>
-        <script src="/js/team.js"></script>
-    </body>
+      </div>
+    </div>
+    <script src="/js/team.js"></script>
+  </body>
 </html>
