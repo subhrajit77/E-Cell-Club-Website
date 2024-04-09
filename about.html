@@ -16,14 +16,14 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
             defer
         ></script>
-        <link rel="stylesheet" href="styles/navbar.css" />
-
-        <link rel="stylesheet" href="about.css" />
-        <link rel="stylesheet" href="styles/footer.css" />
+        
+        <link rel="stylesheet" href="/styles/navbar.css" />
+        <link rel="stylesheet" href="/styles/footer.css" />
+        <link rel="stylesheet" href="./about.css" />
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-sm ms-5" id="navbar">
+        <nav class="navbar navbar-expand-sm ms-5" id="navbar"  style="display: non;">
             <div class="navbar-brand">
                 <img
                     src="images/logo2.png"
@@ -44,7 +44,7 @@
             </button>
             <div class="nav-links collapse navbar-collapse" id="navLinks">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
                     <li class="nav-item"><a href="./about.html">About</a></li>
                     <li class="nav-item">
                         <a href="/public/events.html">Events</a>
@@ -61,7 +61,7 @@
         </nav>
 
         <!-- about section intro -->
-        <div class="intro">
+        <div class="intro" style="display: non;">
             <div class="intro-text">
                 <h1>ABOUT<span> US</span></h1>
                 <p>
@@ -77,25 +77,13 @@
                 </p>
             </div>
         </div>
-        <!-- <div class="goals">
-        <div class="goals-text">
-            <h1>Club Mission and Goals
-            </h1>
-            <p>Our mission is to cultivate an entrepreneurial mindset among CITK students, empowering them to create, innovate, and turn their ideas into successful ventures. Our goals include:
-            </p>
-        </div>
-        <div class="goals-img">
-            <img src="images/about.png" alt="">
-        </div>
-    </div> -->
 
         <!-- Cards -->
-        <div class="container">
-            <p class="container-title">
+        <div class="container" style="display: non;">
+            <h2 class="container-title">
                 Club <span>Mission</span> and <span>Goals</span>
-            </p>
-            <!-- <br>we’re proud of</p> -->
-            <p>
+            </h2>
+            <p class="container-text">
                 Our mission is to cultivate an entrepreneurial mindset among
                 CITK students, empowering them to create, innovate, and turn
                 their ideas into successful ventures. Our goals include
@@ -173,23 +161,18 @@
         </div>
 
         <!-- Club activites and programs section -->
-        <div class="activity-container">
-            <h2 class="heading">
+        <div class="activity-container" style="display: non;">
+            <h2 class="heading" style="display: non;">
                 Club <span>Activities</span> and <span>programs</span>
             </h2>
-            <div class="row">
+            <div class="row" style="display: non">
                 <!-- card1 -->
 
-                <div class="card card-circle">
-                    <div class="card-icon">
-                        <!-- <i class="fas fa-apple-alt"></i> -->
-                    </div>
+                <div class="card card-circle"  style="display: non;">
                     <div class="card-body">
                         <img
                             src="/images/seminar.png"
                             alt=""
-                            height="150px"
-                            width="150px"
                         />
                         <h5 class="card-title">Workshops & Seminars</h5>
                         <p class="card-text">
@@ -198,20 +181,14 @@
                             as ideation, business planning, marketing
                             strategies, and more
                         </p>
-                        <!-- <a href="#" class="btn btn-primary">Eat me</a> -->
                     </div>
                 </div>
                 <!-- card2 -->
                 <div class="card card-circle">
-                    <div class="card-icon">
-                        <!-- <i class="fas fa-cookie"></i> -->
-                    </div>
                     <div class="card-body">
                         <img
                             src="/images/competiion.png"
                             alt=""
-                            height="130px"
-                            width="130px"
                         />
                         <h5 class="card-title">
                             Entrepreneurship Competitions
@@ -221,20 +198,14 @@
                             students get to pitch their business ideas, receive
                             valuable feedback, and compete for prizes.
                         </p>
-                        <!-- <a href="#" class="btn btn-primary">Eat me</a> -->
                     </div>
                 </div>
                 <!-- card3 -->
                 <div class="card card-circle">
-                    <div class="card-icon">
-                        <!-- <i class="fas fa-carrot"></i> -->
-                    </div>
                     <div class="card-body">
                         <img
                             src="/images/funding2.png"
                             alt=""
-                            height="150px"
-                            width="170px"
                         />
                         <h5 class="card-title">Startup Incubator</h5>
                         <p class="card-text">
@@ -243,7 +214,6 @@
                             funding opportunities, and a collaborative space to
                             grow their ventures.
                         </p>
-                        <!-- <a href="#" class="btn btn-primary">Eat me</a> -->
                     </div>
                 </div>
             </div>
@@ -251,7 +221,7 @@
 
         <!-- membership section -->
 
-        <div class="membership-info animate-on-scroll">
+        <div class="membership-info animate-on-scroll" style="display: non">
             <h2>Membership Information</h2>
             <script
                 src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
@@ -263,7 +233,6 @@
                 src="https://lottie.host/5e90d1c3-7ee3-4edd-bf9c-22001de8a910/TmbuDwCE5t.json"
                 background="transparent"
                 speed="1.5"
-                style="width: 300px; height: 300px"
                 loop
                 autoplay
             ></dotlottie-player>
@@ -277,7 +246,7 @@
                 membership, and honorary membership.
             </p>
         </div>
-        <div class="join-us">
+        <div class="join-us" style="display: non">
             <h3>How to <span id="join">Join ?</span></h3>
             <p>
                 To become a member, simply visit our website, complete the
@@ -288,7 +257,7 @@
 
         <!-- footer section  -->
 
-        <div id="footer">
+        <div id="footer" style="display: non;">
             <div class="logo">
                 <div class="flex">
                     <img class="img" src="/images/logo2.png" />
@@ -302,7 +271,7 @@
             </div>
             <ul class="Links">
                 <li><b>Links</b></li>
-                <li><a href="#home">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/public/events.html">Events</a></li>
                 <li><a href="/public/team.html">Team</a></li>
@@ -356,7 +325,6 @@
             </div>
 
             <div class="social">
-                <!-- <h6>Follow us </h6>  -->
                 <a
                     href="https://www.instagram.com/ecell_citk?igsh=MXE3dXR5Ym8wbzRmbA=="
                     target="_blank"
@@ -384,9 +352,6 @@
                         src="https://img.icons8.com/color/48/twitterx--v1.png"
                         alt="twitterx--v1"
                 /></a>
-                <!-- <img class="icons" src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-3/128/twitter-icon.png">
-          <img class="icons" src="https://www.stackbuilders.com/assets/img/github-icon-hover.png">
-          <img class="icons" style="filter: invert(100%)" src="https://www.iconninja.com/files/625/765/244/social-media-stackoverflow-icon.png"> -->
             </div>
         </div>
 
