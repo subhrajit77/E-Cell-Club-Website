@@ -13,7 +13,6 @@ body {
   background-repeat: no-repeat;
   max-height: max-content;
   overflow-x: hidden;
-  /* border: 2px solid yellow; */
 }
 
 /* Events section */
@@ -22,7 +21,6 @@ body {
   background-color: #01010e93;
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
-  /* border: 2px solid green; */
 }
 
 .card:hover {
@@ -83,10 +81,8 @@ body {
 
 .container-core {
   max-width: 1500px;
-  /* width: 1000px; */
   margin: auto;
   margin-top: 25px;
-  /* border: 2px solid yellow; */
   border-radius: 40px;
   font-family: "Raleway", sans-serif;
   /* background-color: #080018; */
@@ -246,7 +242,6 @@ body {
 @media screen and (max-width: 479px) {
   .container-core {
     padding: 0;
-    /* border: 2px solid red; */
   }
 
   .card {
@@ -254,29 +249,6 @@ body {
     margin-bottom: 20px;
   }
 
-  .navbar-nav {
-    flex-direction: column;
-    margin-left: 0;
-  }
-
-  .nav-item {
-    width: 100%;
-    text-align: center;
-  }
-
-  .navbar-brand {
-    margin: auto;
-    text-align: center;
-  }
-
-  .navbar-toggler {
-    position: absolute;
-    right: 0;
-  }
-
-  .nav-links {
-    padding-top: 20px;
-  }
 
   .row-core {
     display: flex;
