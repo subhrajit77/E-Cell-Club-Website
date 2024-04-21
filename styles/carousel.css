@@ -1,5 +1,18 @@
 /* whats latest */
 /* -carousel section */
+#carousel-header {
+    background-image: radial-gradient(#0c0000, #080018);
+    color: white;
+    width: 1410px;
+    /* height: 100px; */
+    margin-bottom: -1px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+#carousel-header span {
+    color: #e64716;
+}
 .carousel-item {
     height: 500px;
     background-image: radial-gradient(#0c0000, #080018);
@@ -33,14 +46,10 @@
     border-radius: 50%;
 }
 
-/* .carousel-control-prev-icon:after {
-    content: " ";
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-}
 
+.carousel-control-prev-icon:before ,
 .carousel-control-next-icon:after {
     content: " ";
     font-size: 25px;
     color: rgb(255, 255, 255);
-} */
+}
