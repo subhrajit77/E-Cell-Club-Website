@@ -246,36 +246,11 @@ body {
 @media screen and (max-width: 479px) {
   .container-core {
     padding: 0;
-    /* border: 2px solid red; */
   }
 
   .card {
     width: 100%;
     margin-bottom: 20px;
-  }
-
-  .navbar-nav {
-    flex-direction: column;
-    margin-left: 0;
-  }
-
-  .nav-item {
-    width: 100%;
-    text-align: center;
-  }
-
-  .navbar-brand {
-    margin: auto;
-    text-align: center;
-  }
-
-  .navbar-toggler {
-    position: absolute;
-    right: 0;
-  }
-
-  .nav-links {
-    padding-top: 20px;
   }
 
   .row-core {
@@ -300,12 +275,10 @@ body {
   }
 
   .btn-primary {
-    /* background-color: #007bff; */
     border: none;
     color: white;
     padding: 15px 32px;
     background-color: #ff1e00b7;
-    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -341,7 +314,6 @@ body {
     margin-top: 5%;
     margin-left: 18%;
 
-    /* margin-left: 0%; */
   }
   .section-title span {
     color: orangered;
