@@ -346,10 +346,9 @@ body {
         z-index: 1;
         animation: box-shadow 500ms 0ms;
     }
-    .card-circle:nth-child(1){
+    .card-circle:nth-child(1) {
         margin: 0px auto;
         z-index: 2;
-    
     }
 }
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
@@ -477,7 +476,10 @@ body {
 .membership-info {
     /* color: #d4cdcd; */
     display: inline-block;
+    width: 100%;
+    height: auto;
     margin: 100px auto;
+    /* background: #2c726e85; */
 }
 .membership-info h2 {
     color: #e64716;
@@ -506,16 +508,33 @@ body {
     width: 300px;
     aspect-ratio: 1;
 }
+.membership-info .register {
+    background-color: #3789e6;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    margin-left: 22rem;
+    margin-top:2rem
+}
+.membership-info .register:hover {
+    background-color: #55d619;
+    cursor: pointer;
+}
+/* button */
+
+/* button end */
 
 @media screen and (max-width: 991px) {
     .membership-info {
         width: 100%;
     }
     .membership-info #info {
-        width:auto;
+        width: auto;
         margin-left: 132px;
         height: auto;
-        margin-right:30px
+        margin-right: 30px;
     }
     .membership-info #think {
         margin-left: -72px;
@@ -600,27 +619,25 @@ h3 #join {
     transform: translateY(0);
 }
 
-
-@media screen and (max-width:768px){
-    .join-us{
+@media screen and (max-width: 768px) {
+    .join-us {
         width: 100%;
         margin: 10px;
         height: auto;
     }
-    .join-us h3{
+    .join-us h3 {
         width: 100%;
         font-size: 25px;
         font-weight: 900;
     }
 }
 
-@media screen and (max-width:479px){
-    .join-us{
+@media screen and (max-width: 479px) {
+    .join-us {
         padding: 10px 10px;
-        margin:20px 0px;
+        margin: 20px 0px;
     }
-    .join-us p{
+    .join-us p {
         text-align: justify;
     }
-    
 }
