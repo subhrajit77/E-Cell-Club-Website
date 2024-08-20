@@ -275,7 +275,7 @@ body {
 /* Quote section  */
 
 .blockquote-wrapper {
-    display: flex;
+    display: none;
     height: 85vh;
     padding: 0 20px;
     background-image: radial-gradient(#0c0000, #080018);
@@ -283,6 +283,7 @@ body {
 
 /* Blockquote main style */
 .blockquote {
+    display: none;
     position: relative;
     font-family: "Barlow Condensed", sans-serif;
     max-width: 620px;
