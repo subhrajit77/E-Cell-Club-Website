@@ -233,29 +233,45 @@ body {
 }
 
 @media (max-width: 500px) {
+    .welcome{
+        /* background-color: #fff800; */
+        padding: 2px;
+        
+    }
     .welcome-box {
-        margin-left: 20px;
+        margin: 20px 10px; /* Adjust margins to reduce horizontal overflow */
+        padding: 10px;  /* Add padding for a more comfortable layout */
+        height: 100px;
+        /* background-color: #fff700c4; */
     }
+    
     .welcome-text {
-        width: 200px;
-        padding: 0;
+        width: 100%; /* Allow text to use full width */
+        padding: 0; 
         height: auto;
-        margin-left: 100px;
+        margin: 0; /* Center the text block */
+        text-align: center; /* Center align text */
     }
+    
     .welcome-text p {
-        font-size: 20px;
+        text-align: justify; 
+        width: 100%; /* Use full available width */
+        height: auto;
+        font-size: 14px; /* Slightly smaller font for readability */
+        margin: 10px 0; /* Add margin for spacing */
+        padding: 0.5rem; /* Adjust padding for smaller screens */
     }
 
-    .welcome-box {
-        .first-line {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        .second-line {
-            font-size: 30px;
-        }
+    .welcome-box .first-line {
+        font-size: 20px; /* Adjust font size for better readability */
+        margin-bottom: 8px;
+    }
+
+    .welcome-box .second-line {
+        font-size: 26px; /* Reduce size to fit better on smaller screens */
     }
 }
+
 /* Quote section  */
 
 .blockquote-wrapper {
