@@ -45,13 +45,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // carousel for whats latest
-document.addEventListener('DOMContentLoaded', (event) => {
-  var myCarousel = document.querySelector('#carouselExampleCaptions')
-  var carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 100,
-    // pause: "hover"
-  });
-});
+// document.addEventListener('DOMContentLoaded', (event) => {
+//   var myCarousel = document.querySelector('#carouselExampleCaptions')
+//   var carousel = new bootstrap.Carousel(myCarousel, {
+//     interval: 100,
+//     // pause: "hover"
+//   });
+// });
 
 //quote section
 function updateQuote() {
