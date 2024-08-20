@@ -475,11 +475,15 @@ body {
 /* membership section stylings  */
 .membership-info {
     /* color: #d4cdcd; */
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: auto;
     margin: 100px auto;
     /* background: #2c726e85; */
+    
 }
 .membership-info h2 {
     color: #e64716;
@@ -506,6 +510,7 @@ body {
     color: rgb(223, 213, 213);
     margin: 10px 0px;
     width: 300px;
+    margin-right: 35rem;
     aspect-ratio: 1;
 }
 .membership-info .register {
@@ -515,7 +520,7 @@ body {
     border: none;
     padding: 1rem 1rem;
     cursor: pointer;
-    margin-left: 22rem;
+    margin-left: 11rem;
     margin-top:2rem
 }
 .membership-info .register:hover {
@@ -548,14 +553,25 @@ body {
         font-size: 30px;
     }
     .membership-info p {
-        font-size: 16px;
+        font-size: 11px;
         font-weight: 900;
         margin: 10px auto;
     }
     .membership-info #info {
+        text-align: justify;
         width: 100%;
         margin: 10px auto;
         font-weight: 300;
+    }
+    .membership-info .register {
+        background-color: #3789e6;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 0.7rem 0.7rem;
+        cursor: pointer;
+        margin-left: 9rem;
+        margin-top:2rem
     }
     .membership-info #think {
         margin-left: 0px;
