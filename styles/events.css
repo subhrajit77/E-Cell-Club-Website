@@ -277,7 +277,6 @@ body {
         width: 100%;
         margin-bottom: 20px;
     }
-
     .row-core {
         display: flex;
         flex-wrap: wrap;
@@ -346,4 +345,5 @@ body {
     .section-title span {
         color: orangered;
     }
+
 }
