@@ -253,6 +253,9 @@ body {
     .gradient-cards {
         padding: 0px;
     }
+    .container .container-text {
+        font-size: 17px;
+    }
 }
 /* Club activities and programs section */
 
@@ -483,7 +486,6 @@ body {
     height: auto;
     margin: 100px auto;
     /* background: #2c726e85; */
-    
 }
 .membership-info h2 {
     color: #e64716;
@@ -521,7 +523,7 @@ body {
     padding: 1rem 1rem;
     cursor: pointer;
     margin-left: 11rem;
-    margin-top:2rem
+    margin-top: 2rem;
 }
 .membership-info .register:hover {
     background-color: #55d619;
@@ -571,7 +573,7 @@ body {
         padding: 0.7rem 0.7rem;
         cursor: pointer;
         margin-left: 9rem;
-        margin-top:2rem
+        margin-top: 2rem;
     }
     .membership-info #think {
         margin-left: 0px;
@@ -591,6 +593,15 @@ body {
         font-weight: 900;
         margin: 10px auto;
     }
+    .membership-info .register {
+        border-radius: 10px;
+        border: none;
+        padding: 0.7rem 0.7rem;
+        cursor: pointer;
+        margin-left: 7rem;
+        margin-top: 2rem;
+    }
+
     .membership-info #info {
         width: 100%;
         margin: 10px auto;
